@@ -17,46 +17,37 @@ const FixedPriceIcon = () => (
 );
 
 const QuickSetupIcon = () => (
-  <svg viewBox="0 0 100 100" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
-    <line x1="15" y1="40" x2="35" y2="40" strokeWidth="4" />
-    <line x1="10" y1="52" x2="30" y2="52" strokeWidth="4" />
-    <line x1="15" y1="64" x2="35" y2="64" strokeWidth="4" />
-    <circle cx="60" cy="55" r="28" />
-    <rect x="54" y="20" width="12" height="7" rx="2" />
-    <path d="M78 32 L83 37" strokeWidth="5" />
-    <line x1="60" y1="33" x2="60" y2="38" strokeWidth="2" />
-    <line x1="60" y1="72" x2="60" y2="77" strokeWidth="2" />
-    <line x1="43" y1="55" x2="48" y2="55" strokeWidth="2" />
-    <line x1="72" y1="55" x2="77" y2="55" strokeWidth="2" />
-    <path d="M50 55 L57 62 L70 48" strokeWidth="5" />
+  <svg viewBox="0 0 24 24" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <polyline points="12 6 12 12 16 14" />
   </svg>
 );
 
 const QualityIcon = () => (
-  <svg viewBox="0 0 100 100" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M50 12 L61 38 L88 38 L67 55 L75 82 L50 66 L25 82 L33 55 L12 38 L39 38 Z" />
-    <path d="M45 45 L55 55 M55 45 L45 55" strokeWidth="3" />
+  <svg viewBox="0 0 24 24" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
   </svg>
 );
 
 const FlexibilityIcon = () => (
-  <svg viewBox="0 0 100 100" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="25" y="25" width="50" height="50" rx="8" />
-    <line x1="25" y1="42" x2="75" y2="42" />
-    <rect x="42" y="52" width="4" height="12" rx="1" fill="currentColor" stroke="none" />
-    <rect x="54" y="52" width="4" height="12" rx="1" fill="currentColor" stroke="none" />
-    <path d="M75 55 C 85 55, 85 35, 75 35" />
-    <path d="M72 38 L75 35 L72 32" />
+  <svg viewBox="0 0 24 24" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+    <line x1="16" y1="2" x2="16" y2="6" />
+    <line x1="8" y1="2" x2="8" y2="6" />
+    <line x1="3" y1="10" x2="21" y2="10" />
+    <path d="M8 14h.01" />
+    <path d="M12 14h.01" />
+    <path d="M16 14h.01" />
+    <path d="M8 18h.01" />
+    <path d="M12 18h.01" />
   </svg>
 );
 
 const DevicesIcon = () => (
-  <svg viewBox="0 0 100 100" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="15" y="20" width="50" height="35" rx="4" />
-    <line x1="30" y1="55" x2="50" y2="55" />
-    <rect x="45" y="45" width="35" height="25" rx="4" />
-    <rect x="72" y="55" width="15" height="30" rx="3" />
-    <circle cx="79.5" cy="80" r="1" fill="currentColor" stroke="none" />
+  <svg viewBox="0 0 24 24" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+    <line x1="8" y1="21" x2="16" y2="21" />
+    <line x1="12" y1="17" x2="12" y2="21" />
   </svg>
 );
 
