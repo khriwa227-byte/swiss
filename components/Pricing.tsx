@@ -24,8 +24,8 @@ const DeviceIcon = () => (
 );
 
 export const Pricing: React.FC = () => {
-  const [selectedDevices, setSelectedDevices] = useState(2);
-  const deviceOptions = [2, 3, 4];
+  const [selectedDevices, setSelectedDevices] = useState(1);
+  const deviceOptions = [1, 2, 3, 4];
 
   const getDevicePrice = (plan: typeof PRICING_PLANS[0]) => {
     const devicePricing = plan.devicePricing.find(dp => dp.devices === selectedDevices);
@@ -58,7 +58,7 @@ export const Pricing: React.FC = () => {
                 }`}
               >
                 <DeviceIcon />
-                {devices} Apparaten
+                {devices} {devices === 1 ? 'Apparaat' : 'Apparaten'}
               </button>
             ))}
           </div>
@@ -97,7 +97,7 @@ export const Pricing: React.FC = () => {
                     </div>
                     <div className={`text-sm mt-2 font-medium flex items-center gap-2 ${idx === 1 ? 'text-white/40' : 'text-black/40'}`}>
                       <DeviceIcon />
-                      {selectedDevices} apparaten inbegrepen
+                      {selectedDevices} {selectedDevices === 1 ? 'apparaat' : 'apparaten'} inbegrepen
                     </div>
                   </div>
 
