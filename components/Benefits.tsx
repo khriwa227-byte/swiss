@@ -44,10 +44,12 @@ const FlexibilityIcon = () => (
 );
 
 const DevicesIcon = () => (
-  <svg viewBox="0 0 24 24" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-    <line x1="8" y1="21" x2="16" y2="21" />
-    <line x1="12" y1="17" x2="12" y2="21" />
+  <svg viewBox="0 0 100 100" className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="15" y="20" width="50" height="35" rx="4" />
+    <line x1="30" y1="55" x2="50" y2="55" />
+    <rect x="45" y="45" width="35" height="25" rx="4" />
+    <rect x="72" y="55" width="15" height="30" rx="3" />
+    <circle cx="79.5" cy="80" r="1" fill="currentColor" stroke="none" />
   </svg>
 );
 
