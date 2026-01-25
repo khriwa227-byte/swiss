@@ -40,17 +40,29 @@ export const FAQS: FAQItem[] = [
   }
 ];
 
+export interface DevicePricing {
+  devices: number;
+  price: string;
+  monthlyPrice: string;
+}
+
 export interface ExtendedPricingPlan extends PricingPlan {
   monthlyPrice: string;
   savings?: string;
+  devicePricing: DevicePricing[];
 }
 
 export const PRICING_PLANS: ExtendedPricingPlan[] = [
   {
     name: "Starter",
-    price: "€34,99",
-    monthlyPrice: "€11,66",
+    price: "€45",
+    monthlyPrice: "€15",
     description: "3 MAANDEN TOEGANG",
+    devicePricing: [
+      { devices: 2, price: "€45", monthlyPrice: "€15" },
+      { devices: 3, price: "€65", monthlyPrice: "€21,67" },
+      { devices: 4, price: "€80", monthlyPrice: "€26,67" }
+    ],
     features: [
       "65.000+ kanalen",
       "175.000+ films & series",
@@ -62,10 +74,15 @@ export const PRICING_PLANS: ExtendedPricingPlan[] = [
   },
   {
     name: "Prime",
-    price: "€69,99",
-    monthlyPrice: "€5,83",
+    price: "€100",
+    monthlyPrice: "€8,33",
     savings: "Bespaar 50%",
     description: "12 MAANDEN TOEGANG",
+    devicePricing: [
+      { devices: 2, price: "€100", monthlyPrice: "€8,33" },
+      { devices: 3, price: "€150", monthlyPrice: "€12,50" },
+      { devices: 4, price: "€180", monthlyPrice: "€15" }
+    ],
     features: [
       "65.000+ kanalen",
       "175.000+ films & series",
@@ -78,10 +95,15 @@ export const PRICING_PLANS: ExtendedPricingPlan[] = [
   },
   {
     name: "Popular",
-    price: "€44,99",
-    monthlyPrice: "€7,49",
+    price: "€60",
+    monthlyPrice: "€10",
     savings: "Bespaar 35%",
     description: "6 MAANDEN TOEGANG",
+    devicePricing: [
+      { devices: 2, price: "€60", monthlyPrice: "€10" },
+      { devices: 3, price: "€90", monthlyPrice: "€15" },
+      { devices: 4, price: "€115", monthlyPrice: "€19,17" }
+    ],
     features: [
       "65.000+ kanalen",
       "175.000+ films & series",
