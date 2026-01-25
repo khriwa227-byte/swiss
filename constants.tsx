@@ -60,9 +60,9 @@ export const PRICING_PLANS: ExtendedPricingPlan[] = [
     description: "3 MAANDEN TOEGANG",
     devicePricing: [
       { devices: 1, price: "€35", monthlyPrice: "€11,67" },
-      { devices: 2, price: "€45", monthlyPrice: "€15" },
-      { devices: 3, price: "€65", monthlyPrice: "€21,67" },
-      { devices: 4, price: "€80", monthlyPrice: "€26,67" }
+      { devices: 2, price: "€45", monthlyPrice: "€7,50" },
+      { devices: 3, price: "€65", monthlyPrice: "€7,22" },
+      { devices: 4, price: "€80", monthlyPrice: "€6,67" }
     ],
     features: [
       "65.000+ kanalen",
@@ -81,9 +81,9 @@ export const PRICING_PLANS: ExtendedPricingPlan[] = [
     description: "12 MAANDEN TOEGANG",
     devicePricing: [
       { devices: 1, price: "€70", monthlyPrice: "€5,83" },
-      { devices: 2, price: "€100", monthlyPrice: "€8,33" },
-      { devices: 3, price: "€150", monthlyPrice: "€12,50" },
-      { devices: 4, price: "€180", monthlyPrice: "€15" }
+      { devices: 2, price: "€100", monthlyPrice: "€4,17" },
+      { devices: 3, price: "€150", monthlyPrice: "€4,17" },
+      { devices: 4, price: "€180", monthlyPrice: "€3,75" }
     ],
     features: [
       "65.000+ kanalen",
@@ -103,9 +103,9 @@ export const PRICING_PLANS: ExtendedPricingPlan[] = [
     description: "6 MAANDEN TOEGANG",
     devicePricing: [
       { devices: 1, price: "€45", monthlyPrice: "€7,50" },
-      { devices: 2, price: "€60", monthlyPrice: "€10" },
-      { devices: 3, price: "€90", monthlyPrice: "€15" },
-      { devices: 4, price: "€115", monthlyPrice: "€19,17" }
+      { devices: 2, price: "€60", monthlyPrice: "€5,00" },
+      { devices: 3, price: "€90", monthlyPrice: "€5,00" },
+      { devices: 4, price: "€115", monthlyPrice: "€4,79" }
     ],
     features: [
       "65.000+ kanalen",
