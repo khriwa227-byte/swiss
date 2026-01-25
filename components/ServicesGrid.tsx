@@ -17,16 +17,16 @@ const MoviePoster: React.FC<{ title: string; posterUrl: string }> = ({ title, po
   </div>
 );
 
-const ChannelLogo: React.FC<{ name: string; url: string }> = ({ name, url }) => (
-  <div 
-    className="flex-shrink-0 px-8 py-4 glass-card rounded-2xl flex items-center justify-center h-20 w-40 opacity-80 hover:opacity-100 grayscale hover:grayscale-0 brightness-[1.2] hover:brightness-[1.5] transition-all duration-500 shadow-lg hover:bg-white group overflow-hidden"
-    style={{ mixBlendMode: 'screen' }}
+const ChannelLogo: React.FC<{ name: string; color: string }> = ({ name, color }) => (
+  <div
+    className="flex-shrink-0 px-6 py-4 glass-card rounded-2xl flex items-center justify-center h-20 min-w-[140px] opacity-70 hover:opacity-100 transition-all duration-500 shadow-lg hover:shadow-xl group overflow-hidden border border-white/10 hover:border-white/30"
   >
-    <img 
-      src={url} 
-      alt={name} 
-      className="max-h-12 max-w-full object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)] group-hover:drop-shadow-none transition-all" 
-    />
+    <span
+      className="text-lg font-black tracking-tight whitespace-nowrap transition-all duration-300 group-hover:scale-110"
+      style={{ color: color }}
+    >
+      {name}
+    </span>
   </div>
 );
 
@@ -74,12 +74,12 @@ export const ServicesGrid: React.FC = () => {
            <div className="marquee-container -mx-6 overflow-hidden">
              <div className="marquee-content py-4" style={{ animationDuration: '40s', animationDirection: 'reverse' }}>
                {CHANNEL_LOGOS.map((logo, i) => (
-                 <ChannelLogo key={i} name={logo.name} url={logo.url} />
+                 <ChannelLogo key={i} name={logo.name} color={logo.color} />
                ))}
              </div>
              <div className="marquee-content py-4" style={{ animationDuration: '40s', animationDirection: 'reverse' }}>
                {CHANNEL_LOGOS.map((logo, i) => (
-                 <ChannelLogo key={`dup-${i}`} name={logo.name} url={logo.url} />
+                 <ChannelLogo key={`dup-${i}`} name={logo.name} color={logo.color} />
                ))}
              </div>
            </div>

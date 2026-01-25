@@ -100,13 +100,20 @@ export const SERVICES = [
 ];
 
 export const CHANNEL_LOGOS = [
-  { name: "NPO 1", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/NPO_1_logo_2014.svg/1200px-NPO_1_logo_2014.svg.png" },
-  { name: "RTL 4", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/RTL4_logo_2023.svg/1200px-RTL4_logo_2023.svg.png" },
-  { name: "Ziggo Sport", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ziggo_Sport_logo_2021.svg/1200px-Ziggo_Sport_logo_2021.svg.png" },
-  { name: "ESPN", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1200px-ESPN_wordmark.svg.png" },
-  { name: "Viaplay", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Viaplay_logo.svg/1200px-Viaplay_logo.svg.png" },
-  { name: "SBS 6", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/SBS6_logo_2013.svg/1200px-SBS6_logo_2013.svg.png" },
-  { name: "Eurosport", url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Eurosport_logo_2015.svg/1200px-Eurosport_logo_2015.svg.png" }
+  { name: "NPO 1", color: "#FF6600" },
+  { name: "RTL 4", color: "#00A1E0" },
+  { name: "ESPN", color: "#D50032" },
+  { name: "Viaplay", color: "#E5007D" },
+  { name: "Ziggo Sport", color: "#FF6B00" },
+  { name: "SBS 6", color: "#FFD700" },
+  { name: "Eurosport", color: "#003DA5" },
+  { name: "Discovery", color: "#00A3E0" },
+  { name: "BBC One", color: "#BB1919" },
+  { name: "Netflix", color: "#E50914" },
+  { name: "HBO Max", color: "#7B2481" },
+  { name: "Disney+", color: "#0057A8" },
+  { name: "F1 TV", color: "#E10600" },
+  { name: "Sky Sports", color: "#E30613" }
 ];
 
 export const TOP_FILMS = [
