@@ -93,7 +93,7 @@ export const Pricing: React.FC = () => {
                       <span className={`text-6xl font-black tracking-tighter leading-none transition-all duration-300 ${idx === 1 ? 'text-white' : 'text-black'}`}>{currentPricing.price}</span>
                     </div>
                     <div className={`text-lg mt-2 font-bold ${idx === 1 ? 'text-white/60' : 'text-black/50'}`}>
-                      {currentPricing.monthlyPrice} / mnd per apparaat
+                      {currentPricing.monthlyPrice} / mnd
                     </div>
                     <div className={`text-sm mt-2 font-medium flex items-center gap-2 ${idx === 1 ? 'text-white/40' : 'text-black/40'}`}>
                       <DeviceIcon />
