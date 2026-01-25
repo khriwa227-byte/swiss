@@ -45,13 +45,13 @@ export const Pricing: React.FC = () => {
         </div>
 
         {/* Device Toggle */}
-        <div className="flex justify-center mb-16">
-          <div className="glass-card rounded-3xl p-3 inline-grid grid-cols-2 gap-2">
+        <div className="mb-16">
+          <div className="glass-card rounded-3xl p-3 grid grid-cols-2 lg:grid-cols-4 gap-2">
             {deviceOptions.map((devices) => (
               <button
                 key={devices}
                 onClick={() => setSelectedDevices(devices)}
-                className={`flex items-center justify-center gap-2 px-6 py-4 rounded-2xl font-bold text-sm transition-all duration-300 min-w-[160px] ${
+                className={`flex items-center justify-center gap-2 px-6 py-4 rounded-2xl font-bold text-sm transition-all duration-300 ${
                   selectedDevices === devices
                     ? 'bg-black text-white shadow-lg'
                     : 'text-black/70 hover:text-black hover:bg-white/50'
