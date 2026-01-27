@@ -46,7 +46,11 @@ export const DesignAssistant: React.FC = () => {
       setMessages(prev => [...prev, { role: 'assistant', content: assistantContent }]);
     } catch (error) {
       console.error("Assistant Error:", error);
-      setMessages(prev => [...prev, { role: 'assistant', content: "Er ging iets mis. Neem contact op via WhatsApp of info@primekopentv.nl voor hulp." }]);
+      const conversationText = [...messages, { role: 'user', content: userMessage }]
+        .map(m => `${m.role === 'user' ? 'Klant' : 'Support'}: ${m.content}`)
+        .join('\n');
+      const whatsappUrl = `https://api.whatsapp.com/send/?phone=447449708976&text=${encodeURIComponent(conversationText)}&type=phone_number&app_absent=0`;
+      window.open(whatsappUrl, '_blank');
     } finally {
       setIsLoading(false);
     }
@@ -58,8 +62,8 @@ export const DesignAssistant: React.FC = () => {
         <div className="bg-white w-96 max-w-[90vw] h-[500px] rounded-3xl shadow-2xl border border-gray-100 flex flex-col overflow-hidden animate-in slide-in-from-bottom-4 duration-300">
           <div className="bg-black p-6 flex justify-between items-center text-white">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-pink-500 overflow-hidden">
-                <img src="https://picsum.photos/seed/support/100/100" alt="Support" className="w-full h-full object-cover" />
+              <div className="w-8 h-8 bg-white rounded-sm flex items-center justify-center">
+                <div className="w-4 h-4 bg-black rotate-45"></div>
               </div>
               <div>
                 <div className="font-bold text-sm">Chat met PrimeSupport</div>

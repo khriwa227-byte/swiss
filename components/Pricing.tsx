@@ -82,10 +82,10 @@ export const Pricing: React.FC = () => {
                 )}
                 <div className={`${idx === 1 ? 'bg-black/90' : 'bg-transparent'} p-10 flex-1 flex flex-col`}>
                   <div className="mb-8">
-                    <h3 className={`text-3xl font-black tracking-tighter mb-2 ${idx === 1 ? 'text-white' : 'text-black'}`}>{plan.name}</h3>
-                    <p className={`text-xs font-black uppercase tracking-widest ${idx === 1 ? 'text-white/60' : 'text-black/50'}`}>
-                      {plan.description}
+                    <p className={`text-xs font-black uppercase tracking-widest mb-2 ${idx === 1 ? 'text-white/60' : 'text-black/50'}`}>
+                      {plan.name}
                     </p>
+                    <h3 className={`text-2xl lg:text-3xl font-black tracking-tighter ${idx === 1 ? 'text-white' : 'text-black'}`}>{plan.description}</h3>
                   </div>
 
                   <div className="mb-10">

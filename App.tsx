@@ -3,9 +3,11 @@ import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Benefits } from './components/Benefits';
-import { ServicesGrid } from './components/ServicesGrid';
+import { ServicesGrid, FilmsAndShows } from './components/ServicesGrid';
 import { Pricing } from './components/Pricing';
 import { FAQ } from './components/FAQ';
+import { Reviews } from './components/Reviews';
+import { PaymentMethods } from './components/PaymentMethods';
 import { Footer } from './components/Footer';
 import { DesignAssistant } from './components/DesignAssistant';
 
@@ -50,6 +52,9 @@ const App: React.FC = () => {
           <Hero />
         </section>
         <section className="reveal">
+          <FilmsAndShows />
+        </section>
+        <section className="reveal">
           <Benefits />
         </section>
         <section className="reveal">
@@ -57,6 +62,12 @@ const App: React.FC = () => {
         </section>
         <section className="reveal">
           <Pricing />
+        </section>
+        <section className="reveal">
+          <Reviews />
+        </section>
+        <section className="reveal">
+          <PaymentMethods />
         </section>
         <section className="reveal">
           <FAQ />

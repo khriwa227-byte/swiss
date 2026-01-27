@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
   const whatsappLink = "https://api.whatsapp.com/send/?phone=447449708976&text&type=phone_number&app_absent=0";
 
   return (
-    <section className="pt-40 pb-20 px-6 overflow-hidden">
+    <section className="pt-40 pb-6 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
         <div className="space-y-12 flex flex-col items-center lg:items-start text-center lg:text-left">
           <div className="space-y-6">
@@ -97,7 +97,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-40 border-y border-white/10 py-12 backdrop-blur-sm">
+      <div className="mt-24 border-y border-white/10 py-12 backdrop-blur-sm">
         <div className="marquee-container">
           <div className="marquee-content brightness-125">
             {['Eredivisie', 'Champions League', 'Formule 1', 'NPO', 'RTL', 'SBS', 'Netflix content'].map((brand, i) => (
