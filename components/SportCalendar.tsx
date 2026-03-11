@@ -47,7 +47,7 @@ const SPORT_FILTERS = [
 
 const LEAGUE_DEFS = [
   { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard',                 competition: 'Eredivisie',       sport: 'voetbal', channel: 'ESPN',        channelColor: '#E8002D', isTeamSport: true },
-  { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions_league/scoreboard', competition: 'Champions League', sport: 'voetbal', channel: 'Ziggo Sport', channelColor: '#FF5500', isTeamSport: true },
+  { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard', competition: 'Champions League', sport: 'voetbal', channel: 'Ziggo Sport', channelColor: '#FF5500', isTeamSport: true },
   { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard',                 competition: 'Premier League',   sport: 'voetbal', channel: 'Viaplay',     channelColor: '#5900D9', isTeamSport: true },
   { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard',                 competition: 'La Liga',          sport: 'voetbal', channel: 'Viaplay',     channelColor: '#5900D9', isTeamSport: true },
   { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard',                 competition: 'Bundesliga',       sport: 'voetbal', channel: 'Viaplay',     channelColor: '#5900D9', isTeamSport: true },

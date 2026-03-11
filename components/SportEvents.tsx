@@ -44,7 +44,7 @@ const LEAGUE_DEFS = [
     isTeamSport: true,
   },
   {
-    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions_league/scoreboard',
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard',
     competition: 'Champions League', sport: 'voetbal',
     channel: 'Ziggo Sport', channelColor: '#FF5500',
     gradient: 'linear-gradient(135deg, #0a1628 0%, #003087 60%, #0a1628 100%)',
@@ -180,6 +180,9 @@ async function loadEvents(): Promise<SportEvent[]> {
 
 function sortEvents(events: SportEvent[]) {
   return [...events].sort((a, b) => {
+    const aFootball = a.sport === 'voetbal' ? 0 : 1;
+    const bFootball = b.sport === 'voetbal' ? 0 : 1;
+    if (aFootball !== bFootball) return aFootball - bFootball;
     if (a.status === 'live' && b.status !== 'live') return -1;
     if (b.status === 'live' && a.status !== 'live') return 1;
     return new Date(a.startTime).getTime() - new Date(b.startTime).getTime();

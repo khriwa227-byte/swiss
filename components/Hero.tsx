@@ -16,7 +16,7 @@ interface FeaturedMatch {
 }
 
 const HERO_LEAGUES = [
-  { url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions_league/scoreboard', label: 'Champions League' },
+  { url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard', label: 'Champions League' },
   { url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard',                label: 'Eredivisie' },
   { url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard',                label: 'Premier League' },
   { url: 'https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard',                label: 'La Liga' },
