@@ -186,31 +186,6 @@ export const PERIOD_PLANS: PeriodPlan[] = [
     description: "12+3 MAANDEN TOEGANG",
     tiers: [
       {
-        tier: "Basis",
-        price: "€88,99",
-        monthlyPrice: "€5,00",
-        devicePricing: [
-          { devices: 1, price: "€69,99", monthlyPrice: "€4,67" },
-          { devices: 2, price: "€99,99", monthlyPrice: "€6,67" },
-          { devices: 3, price: "€139,99", monthlyPrice: "€7,50" },
-          { devices: 4, price: "€179,99", monthlyPrice: "€9,17" }
-        ],
-        features: [
-          "SD/HD/FULL HD/UHD/4K Kwaliteit",
-          "+80.000 Kanalen + Netflix",
-          "RTL, NPO, ZIGGO, SBS, ESPN",
-          "+140.000 Films & Series",
-          "Wekelijkse Updates",
-          "24/7 Support NL & BE",
-          "100% Anoniem",
-          "AntiFreeze Technologie",
-          "Alle Apparaten",
-          "VPN Inbegrepen",
-          "Exclusieve NL & BE Content",
-          "Netflix, Amazon, HBO, Apple TV, Hulu"
-        ]
-      },
-      {
         tier: "Premium",
         price: "€125,99",
         monthlyPrice: "€8,33",

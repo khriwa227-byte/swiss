@@ -278,7 +278,7 @@ export const Pricing: React.FC = () => {
 
         {/* Pricing Cards - Basis & Premium */}
         <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {currentPeriod.tiers.map((tier, idx) => {
+          {[...currentPeriod.tiers].reverse().map((tier, idx) => {
             const currentPricing = getDevicePrice(tier);
             const isPremium = tier.tier === "Premium";
             const is12 = selectedPeriod === 12;
