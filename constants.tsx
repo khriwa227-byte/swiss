@@ -116,7 +116,7 @@ export const PERIOD_PLANS: PeriodPlan[] = [
           "Alle Apparaten",
           "VPN Inbegrepen",
           "Exclusieve VIP Content",
-          "Netflix, Amazon, HBO, Apple TV, Hulu"
+          "Videoland, Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       }
     ]
@@ -175,7 +175,7 @@ export const PERIOD_PLANS: PeriodPlan[] = [
           "Alle Apparaten",
           "VPN Inbegrepen",
           "Exclusieve VIP Content",
-          "Netflix, Amazon, HBO, Apple TV, Hulu"
+          "Videoland, Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       }
     ]
@@ -209,7 +209,7 @@ export const PERIOD_PLANS: PeriodPlan[] = [
           "Alle Apparaten",
           "VPN Inbegrepen",
           "Exclusieve VIP Content",
-          "Netflix, Amazon, HBO, Apple TV, Hulu"
+          "Videoland, Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       }
     ]
