@@ -17,6 +17,7 @@ import { ResellerPacks } from './components/ResellerPacks';
 import { SeoContent } from './components/SeoContent';
 import { SportEvents } from './components/SportEvents';
 import { SportCalendar } from './components/SportCalendar';
+import { Kastje } from './components/Kastje';
 
 const BANNER_HEIGHT = 48;
 
@@ -114,6 +115,7 @@ const FAQPage: React.FC = () => <main className="pt-28"><FAQ /></main>;
 const AlgemeneVoorwaardenPage: React.FC = () => <main><AlgemeneVoorwaarden /></main>;
 const PrivacybeleidPage: React.FC = () => <main><Privacybeleid /></main>;
 const SportklaenderPage: React.FC = () => <main><SportCalendar /></main>;
+const KastjePage: React.FC = () => <main><Kastje /></main>;
 
 /* ─── app ────────────────────────────────────────────────────────────────────── */
 
@@ -132,6 +134,7 @@ const AppInner: React.FC = () => {
         <Route path="/algemene-voorwaarden" element={<AlgemeneVoorwaardenPage />} />
         <Route path="/privacybeleid" element={<PrivacybeleidPage />} />
         <Route path="/sportklaender" element={<SportklaenderPage />} />
+        <Route path="/kastje" element={<KastjePage />} />
       </Routes>
     </Layout>
   );

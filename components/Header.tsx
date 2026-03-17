@@ -21,6 +21,7 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled, bannerOffset = 0, li
     { name: 'Sport', href: '/sportklaender' },
     { name: 'Voordelen', href: '/voordelen' },
     { name: 'Prijzen', href: '/prijzen' },
+    { name: 'Kastje', href: '/kastje' },
     { name: 'Reseller', href: '/reseller' },
     { name: 'FAQ', href: '/faq' },
   ];
