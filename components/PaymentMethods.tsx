@@ -162,7 +162,7 @@ const PAYMENT_METHODS = [
 
 export const PaymentMethods: React.FC = () => {
   return (
-    <section className="py-20 px-6">
+    <section id="payment-methods" className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <div className="inline-block px-4 py-1.5 glass-card rounded-full text-xs font-bold uppercase tracking-widest mb-6">
           Betaalmethoden
