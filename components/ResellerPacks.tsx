@@ -37,7 +37,7 @@ const features = [
 ];
 
 export const ResellerPacks: React.FC = () => {
-  const whatsappNumber = '447414662070';
+  const whatsappNumber = '447449708976';
 
   const handleSubscribe = (credits: number) => {
     (window as any).gtag?.('event', 'conversion', { send_to: 'AW-18026898040/WqPtCO-n7YwcEPjE8pND' });
