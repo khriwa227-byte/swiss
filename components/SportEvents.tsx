@@ -79,17 +79,53 @@ const LEAGUE_DEFS = [
     isTeamSport: true,
   },
   {
-    base: 'https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard',
-    competition: 'Formule 1', sport: 'f1',
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa_league/scoreboard',
+    competition: 'Europa League', sport: 'voetbal',
+    channel: 'Viaplay', channelColor: '#5900D9',
+    gradient: 'linear-gradient(135deg, #0a1a0a 0%, #1a4a00 60%, #0a1a0a 100%)',
+    isTeamSport: true,
+  },
+  // ── International ──
+  {
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.nations/scoreboard',
+    competition: 'Nations League', sport: 'internationaal',
     channel: 'Ziggo Sport', channelColor: '#FF5500',
-    gradient: 'linear-gradient(135deg, #1a0800 0%, #4a1800 60%, #1a0800 100%)',
-    isTeamSport: false,
+    gradient: 'linear-gradient(135deg, #0a0a2a 0%, #1a1a6a 60%, #0a0a2a 100%)',
+    isTeamSport: true,
   },
   {
-    base: 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard',
-    competition: 'NBA', sport: 'basket',
-    channel: 'NBA TV', channelColor: '#006BB6',
-    gradient: 'linear-gradient(135deg, #00091a 0%, #002b5c 60%, #00091a 100%)',
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.wcq/scoreboard',
+    competition: 'WK Kwalificatie', sport: 'internationaal',
+    channel: 'Ziggo Sport', channelColor: '#FF5500',
+    gradient: 'linear-gradient(135deg, #0a1628 0%, #00306a 60%, #0a1628 100%)',
+    isTeamSport: true,
+  },
+  {
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard',
+    competition: 'FIFA World Cup', sport: 'internationaal',
+    channel: 'NOS', channelColor: '#E8002D',
+    gradient: 'linear-gradient(135deg, #1a0800 0%, #8B0000 60%, #1a0800 100%)',
+    isTeamSport: true,
+  },
+  {
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro/scoreboard',
+    competition: 'UEFA EURO', sport: 'internationaal',
+    channel: 'NOS', channelColor: '#E8002D',
+    gradient: 'linear-gradient(135deg, #001a40 0%, #003399 60%, #001a40 100%)',
+    isTeamSport: true,
+  },
+  {
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard',
+    competition: 'Interland Vriendsch.', sport: 'internationaal',
+    channel: 'NOS', channelColor: '#E8002D',
+    gradient: 'linear-gradient(135deg, #0D1B3E 0%, #21468B 60%, #0D1B3E 100%)',
+    isTeamSport: true,
+  },
+  {
+    base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly.w/scoreboard',
+    competition: 'Vrouwen Vriendsch.', sport: 'internationaal',
+    channel: 'NOS', channelColor: '#E8002D',
+    gradient: 'linear-gradient(135deg, #1a001a 0%, #6a006a 60%, #1a001a 100%)',
     isTeamSport: true,
   },
 ];
@@ -178,15 +214,23 @@ async function loadEvents(): Promise<SportEvent[]> {
   return fetchFromESPN();
 }
 
+const SOCCER_SPORTS = new Set(['voetbal', 'internationaal']);
+
 function sortEvents(events: SportEvent[]) {
-  return [...events].sort((a, b) => {
-    const aFootball = a.sport === 'voetbal' ? 0 : 1;
-    const bFootball = b.sport === 'voetbal' ? 0 : 1;
-    if (aFootball !== bFootball) return aFootball - bFootball;
-    if (a.status === 'live' && b.status !== 'live') return -1;
-    if (b.status === 'live' && a.status !== 'live') return 1;
-    return new Date(a.startTime).getTime() - new Date(b.startTime).getTime();
-  });
+  // Keep only soccer; live first, then by start time
+  return events
+    .filter(e => SOCCER_SPORTS.has(e.sport))
+    .sort((a, b) => {
+      if (a.status === 'live' && b.status !== 'live') return -1;
+      if (b.status === 'live' && a.status !== 'live') return 1;
+      // Within live: club football before internationals
+      if (a.status === 'live' && b.status === 'live') {
+        const aClub = a.sport === 'voetbal' ? 0 : 1;
+        const bClub = b.sport === 'voetbal' ? 0 : 1;
+        if (aClub !== bClub) return aClub - bClub;
+      }
+      return new Date(a.startTime).getTime() - new Date(b.startTime).getTime();
+    });
 }
 
 /* ─── helpers ───────────────────────────────────────────────────────────── */
