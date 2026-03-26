@@ -60,6 +60,8 @@ const LEAGUE_DEFS = [
   { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.euro/scoreboard',                competition: 'UEFA EURO',             sport: 'internationaal', channel: 'NOS',         channelColor: '#E8002D', isTeamSport: true },
   { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/concacaf.nations.a/scoreboard',       competition: 'CONCACAF Nations',      sport: 'internationaal', channel: 'ESPN',        channelColor: '#E8002D', isTeamSport: true },
   { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.world.qualifying/scoreboard',competition: 'CONMEBOL WK Kwal.',     sport: 'internationaal', channel: 'ESPN',        channelColor: '#E8002D', isTeamSport: true },
+  { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard',            competition: 'Interland Vriendsch.', sport: 'internationaal', channel: 'NOS',         channelColor: '#E8002D', isTeamSport: true },
+  { base: 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly.w/scoreboard',          competition: 'Vrouwen Vriendsch.',   sport: 'internationaal', channel: 'NOS',         channelColor: '#E8002D', isTeamSport: true },
   { base: 'https://site.api.espn.com/apis/site/v2/sports/racing/f1/scoreboard',                       competition: 'Formule 1',             sport: 'f1',             channel: 'Ziggo Sport', channelColor: '#FF5500', isTeamSport: false },
   { base: 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard',                  competition: 'NBA',                   sport: 'basket',         channel: 'NBA TV',      channelColor: '#006BB6', isTeamSport: true },
 ];
