@@ -55,7 +55,7 @@ const DevicesIcon = () => (
 
 const BenefitCard: React.FC<{ title: string; desc: string; icon: React.ReactNode; className?: string }> = ({ title, desc, icon, className }) => (
   <div className={`p-8 rounded-[40px] glass-card hover:bg-white transition-all duration-500 group cursor-default ${className}`}>
-    <div className="w-16 h-16 rounded-2xl mb-8 flex items-center justify-center text-white text-3xl group-hover:scale-110 transition-transform shadow-xl" style={{ backgroundColor: '#21468B' }}>
+    <div className="w-16 h-16 rounded-2xl mb-8 flex items-center justify-center text-white text-3xl group-hover:scale-110 transition-transform shadow-xl" style={{ backgroundColor: '#1C1C1C' }}>
       {icon}
     </div>
     <h3 className="text-2xl font-black mb-4 tracking-tighter">{title}</h3>
@@ -69,13 +69,13 @@ export const Benefits: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-20 space-y-6">
           <div className="inline-block px-4 py-1.5 glass-card rounded-full text-xs font-bold uppercase tracking-widest">
-            Lidmaatschap voordelen
+            Mitgliedschaftsvorteile
           </div>
-          <h2 className="text-5xl lg:text-7xl font-black tracking-tighter" style={{ color: '#0D1B3E' }}>
-            Het is <span className="text-italics underline decoration-2 underline-offset-[12px]" style={{ textDecorationColor: 'rgba(174,28,40,0.4)' }}>"je gaat nooit meer terug"</span> beter
+          <h2 className="text-5xl lg:text-7xl font-black tracking-tighter" style={{ color: '#111111' }}>
+            Es ist <span className="text-italics underline decoration-2 underline-offset-[12px]" style={{ textDecorationColor: 'rgba(221,0,0,0.4)' }}>"kein Zurück mehr"</span> besser
           </h2>
-          <p className="text-xl font-medium" style={{ color: 'rgba(13,27,62,0.7)' }}>
-            IPTVNederland vervangt dure Ziggo-pakketten en meerdere streamingdiensten voor één vaste prijs.
+          <p className="text-xl font-medium" style={{ color: 'rgba(17,17,17,0.7)' }}>
+            IPTVDeutschland ersetzt teure TV-Pakete und mehrere Streamingdienste für einen festen Preis.
           </p>
         </div>
 
@@ -83,32 +83,32 @@ export const Benefits: React.FC = () => {
           <BenefitCard
             icon={<WhatsAppIcon />}
             title="WhatsApp Support"
-            desc="Bereik ons direct via WhatsApp voor instant hulp bij al je vragen."
+            desc="Erreiche uns direkt per WhatsApp für sofortige Hilfe bei all deinen Fragen."
           />
           <BenefitCard
             icon={<FixedPriceIcon />}
-            title="Vaste Prijs"
-            desc="Geen verrassingen! Betaal dezelfde vaste prijs voor je gekozen pakket."
+            title="Fester Preis"
+            desc="Keine Überraschungen! Zahle denselben festen Preis für dein gewähltes Paket."
           />
-          <BenefitCard 
-            icon={<QuickSetupIcon />} 
-            title="Snelle Setup" 
-            desc="Ontvang toegang binnen 5 minuten. Geen technicus nodig voor installatie." 
+          <BenefitCard
+            icon={<QuickSetupIcon />}
+            title="Schnelles Setup"
+            desc="Erhalte Zugang in 5 Minuten. Kein Techniker für die Installation erforderlich."
           />
-          <BenefitCard 
-            icon={<QualityIcon />} 
-            title="Prime Kwaliteit" 
-            desc="Premium 4K streamingkwaliteit, wanneer je maar wilt op al je favoriete zenders." 
+          <BenefitCard
+            icon={<QualityIcon />}
+            title="Premium Qualität"
+            desc="Premium 4K-Streamingqualität, wann immer du möchtest auf all deinen Lieblingssendern."
           />
-          <BenefitCard 
-            icon={<FlexibilityIcon />} 
-            title="Flexibel" 
-            desc="Kies 3, 6 of 12 maanden. Volledig flexibel en aanpasbaar aan jouw wensen." 
+          <BenefitCard
+            icon={<FlexibilityIcon />}
+            title="Flexibel"
+            desc="Wähle 3, 6 oder 12 Monate. Vollständig flexibel und anpassbar an deine Wünsche."
           />
-          <BenefitCard 
-            icon={<DevicesIcon />} 
-            title="Alle Apparaten" 
-            desc="Werkt op Smart TV, Fire Stick, telefoon, tablet, PC en vrijwel elke box." 
+          <BenefitCard
+            icon={<DevicesIcon />}
+            title="Alle Geräte"
+            desc="Funktioniert auf Smart TV, Fire Stick, Telefon, Tablet, PC und nahezu jeder Box."
           />
         </div>
       </div>

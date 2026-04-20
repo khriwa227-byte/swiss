@@ -3,45 +3,45 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const REVIEWS = [
   {
-    name: 'Daan V.',
-    initials: 'DV',
-    color: 'from-blue-500 to-cyan-500',
-    text: 'Setup was lijk 5 minuten. Geen gezeur met technieker 👍',
+    name: 'Lukas M.',
+    initials: 'LM',
+    color: 'from-[#1C1C1C] to-[#2a2a2a]',
+    text: 'Setup hat ca. 5 Minuten gedauert. Kein Ärger mit Technikern 👍',
     time: '12:34',
   },
   {
-    name: 'Lotte B.',
-    initials: 'LB',
-    color: 'from-[#AE1C28] to-rose-700',
-    text: 'Al 3 maanden geen enkele storing. Beter dan Ziggo ooit was',
+    name: 'Anna B.',
+    initials: 'AB',
+    color: 'from-[#DD0000] to-rose-700',
+    text: 'Seit 3 Monaten keine einzige Störung. Besser als jeder Kabelanbieter',
     time: '14:02',
   },
   {
-    name: 'Lars K.',
-    initials: 'LK',
-    color: 'from-[#21468B] to-blue-800',
-    text: '4K kwaliteit is echt next level. Champions League is geweldig',
+    name: 'Felix K.',
+    initials: 'FK',
+    color: 'from-[#1C1C1C] to-[#DD0000]',
+    text: '4K Qualität ist wirklich next level. Champions League ist fantastisch',
     time: '18:47',
   },
   {
-    name: 'Sophie M.',
-    initials: 'SM',
+    name: 'Sophie R.',
+    initials: 'SR',
     color: 'from-amber-500 to-orange-500',
-    text: 'Beste €70 die ik dit jaar uitgegeven heb. Serieus.',
+    text: 'Bestes Geld, das ich dieses Jahr ausgegeben habe. Im Ernst.',
     time: '09:15',
   },
   {
-    name: 'Bram W.',
-    initials: 'BW',
+    name: 'Markus W.',
+    initials: 'MW',
     color: 'from-emerald-500 to-teal-500',
-    text: 'Support reageert binnen 2 min op WhatsApp. Respect! 🙏',
+    text: 'Support antwortet innerhalb 2 Min auf WhatsApp. Respekt! 🙏',
     time: '21:33',
   },
   {
-    name: 'Fleur J.',
-    initials: 'FJ',
-    color: 'from-[#0D1B3E] to-[#21468B]',
-    text: 'Vrienden vragen steeds wat ik gebruik. Ga ze doorsturen! 😄',
+    name: 'Julia H.',
+    initials: 'JH',
+    color: 'from-[#111111] to-[#1C1C1C]',
+    text: 'Freunde fragen immer, was ich nutze. Werde sie weiterempfehlen! 😄',
     time: '16:58',
   },
 ];
@@ -77,15 +77,15 @@ const ChatBubble: React.FC<{
       </div>
 
       <div className="flex flex-col gap-1">
-        <span className={`text-xs font-bold ${isRight ? 'text-right' : ''}`} style={{ color: '#0D1B3E' }}>
+        <span className={`text-xs font-bold ${isRight ? 'text-right' : ''}`} style={{ color: '#111111' }}>
           {review.name}
         </span>
         <div
           className={`relative px-4 py-3 shadow-xl ${isRight ? 'rounded-2xl rounded-tr-sm' : 'rounded-2xl rounded-tl-sm'}`}
-          style={{ backgroundColor: '#21468B' }}
+          style={{ backgroundColor: '#1C1C1C' }}
         >
           <div className="absolute top-0 w-3 h-3" style={{
-            backgroundColor: '#21468B',
+            backgroundColor: '#1C1C1C',
             clipPath: isRight ? 'polygon(0 0, 100% 0, 100% 100%)' : 'polygon(100% 0, 0 0, 0 100%)',
             left: isRight ? 'auto' : '-6px',
             right: isRight ? '-6px' : 'auto',
@@ -129,10 +129,10 @@ export const Reviews: React.FC = () => {
       <div className="max-w-2xl mx-auto" ref={sectionRef}>
         <div className="text-center mb-16 space-y-4">
           <div className="inline-block px-4 py-1.5 glass-card rounded-full text-xs font-bold uppercase tracking-widest">
-            23000+ tevreden klanten
+            23000+ zufriedene Kunden
           </div>
-          <h2 className="text-4xl lg:text-5xl font-black tracking-tighter" style={{ color: '#0D1B3E' }}>
-            #1 IPTV in Nederland volgens onze klanten
+          <h2 className="text-4xl lg:text-5xl font-black tracking-tighter" style={{ color: '#111111' }}>
+            #1 IPTV in Deutschland laut unseren Kunden
           </h2>
         </div>
 

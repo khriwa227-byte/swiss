@@ -29,25 +29,25 @@ export const DesignAssistant: React.FC = () => {
         model: 'gemini-3-flash-preview',
         contents: userMessage,
         config: {
-          systemInstruction: `Je bent de klantenservice medewerker van IPTVNederland. 
-          Reageer professioneel, behulpzaam en enthousiast over onze IPTV diensten.
-          Kerninformatie:
-          - Pakketten: Starter (€34,99), Popular (€44,99), Prime (€69,99).
-          - Toegang: Binnen 5 minuten na betaling via WhatsApp.
-          - Inbegrepen: 65.000+ kanalen, 175.000+ films & series, 4K kwaliteit.
-          - Ondersteuning: WhatsApp, Smart TV's, Fire Stick, etc.
-          - Garantie: 15 dagen geld-terug-garantie.
-          - We bieden geen gratis proefperiodes, maar wel volledige garantie.
-          - Spreek Nederlands. Wees beknopt en direct.`,
+          systemInstruction: `Du bist der Kundenservice-Mitarbeiter von IPTVDeutschland.
+          Antworte professionell, hilfsbereit und enthusiastisch über unsere IPTV-Dienste.
+          Kerninformationen:
+          - Pakete: Starter (€34,99), Popular (€44,99), Prime (€69,99).
+          - Zugang: Innerhalb von 5 Minuten nach Zahlung per WhatsApp.
+          - Inklusive: 65.000+ Sender, 175.000+ Filme & Serien, 4K Qualität.
+          - Unterstützung: WhatsApp, Smart TVs, Fire Stick, usw.
+          - Garantie: 15 Tage Geld-zurück-Garantie.
+          - Wir bieten keine kostenlosen Testzeiträume, aber volle Garantie.
+          - Sprich Deutsch. Sei präzise und direkt.`,
         },
       });
 
-      const assistantContent = response.text || "Sorry, ik kon dat niet verwerken. Vraag gerust naar onze prijzen of zenderaanbod.";
+      const assistantContent = response.text || "Entschuldigung, ich konnte das nicht verarbeiten. Fragen Sie gerne nach unseren Preisen oder Sender-Angebot.";
       setMessages(prev => [...prev, { role: 'assistant', content: assistantContent }]);
     } catch (error) {
       console.error("Assistant Error:", error);
       const conversationText = [...messages, { role: 'user', content: userMessage }]
-        .map(m => `${m.role === 'user' ? 'Klant' : 'Support'}: ${m.content}`)
+        .map(m => `${m.role === 'user' ? 'Kunde' : 'Support'}: ${m.content}`)
         .join('\n');
       const whatsappUrl = `https://api.whatsapp.com/send/?phone=447449708976&text=${encodeURIComponent(conversationText)}&type=phone_number&app_absent=0`;
       (window as any).gtag?.('event', 'conversion', { send_to: 'AW-18021173098/TME8COPQ3IocEOqOlZFD' });
@@ -67,8 +67,8 @@ export const DesignAssistant: React.FC = () => {
                 <div className="w-4 h-4 bg-black rotate-45"></div>
               </div>
               <div>
-                <div className="font-bold text-sm">Chat met IPTVNederland</div>
-                <div className="text-[10px] uppercase tracking-widest opacity-60">Team IPTVNederland</div>
+                <div className="font-bold text-sm">Chat mit IPTVDeutschland</div>
+                <div className="text-[10px] uppercase tracking-widest opacity-60">Team IPTVDeutschland</div>
               </div>
             </div>
             <button onClick={() => setIsOpen(false)} className="opacity-60 hover:opacity-100">
@@ -80,7 +80,7 @@ export const DesignAssistant: React.FC = () => {
             {messages.length === 0 && (
               <div className="text-center py-10 text-gray-400 space-y-4">
                 <div className="text-4xl">👋</div>
-                <p className="text-sm font-medium">Hoi! Ik help je graag met al je vragen over IPTVNederland.</p>
+                <p className="text-sm font-medium">Hallo! Ich helfe dir gerne bei allen Fragen zu IPTVDeutschland.</p>
               </div>
             )}
             {messages.map((m, i) => (
@@ -108,7 +108,7 @@ export const DesignAssistant: React.FC = () => {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-                placeholder="Stel een vraag..."
+                placeholder="Frage stellen..."
                 className="w-full pl-4 pr-12 py-3 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-black transition-all"
               />
               <button 
@@ -127,7 +127,7 @@ export const DesignAssistant: React.FC = () => {
           className="bg-black text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all group relative"
         >
           <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
-          <span className="absolute -top-1 -right-1 w-4 h-4 border-2 border-white rounded-full" style={{ backgroundColor: '#AE1C28' }}></span>
+          <span className="absolute -top-1 -right-1 w-4 h-4 border-2 border-white rounded-full" style={{ backgroundColor: '#DD0000' }}></span>
         </button>
       )}
     </div>

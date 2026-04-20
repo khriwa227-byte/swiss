@@ -12,141 +12,141 @@ export const AlgemeneVoorwaarden: React.FC = () => {
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 12L6 8L10 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-          Terug naar home
+          Zurück zur Startseite
         </a>
 
         <h1 className="text-4xl lg:text-6xl font-black tracking-tighter mb-4">
-          Algemene Voorwaarden
+          Allgemeine Geschäftsbedingungen
         </h1>
         <div className="space-y-12 text-gray-700 leading-relaxed">
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">1. Definities</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">1. Definitionen</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>IPTVNederland</strong>: de aanbieder van IPTV-diensten, gevestigd in Nederland.</li>
-              <li><strong>Klant</strong>: de natuurlijke persoon of rechtspersoon die een abonnement afsluit bij IPTVNederland.</li>
-              <li><strong>Dienst</strong>: het IPTV-abonnement en alle bijbehorende diensten die door IPTVNederland worden aangeboden.</li>
-              <li><strong>Abonnement</strong>: de overeenkomst tussen IPTVNederland en de Klant voor het gebruik van de Dienst gedurende een bepaalde periode.</li>
-              <li><strong>Apparaat</strong>: elk apparaat (smart-tv, smartphone, tablet, laptop of ander compatibel apparaat) waarop de Dienst wordt gebruikt.</li>
+              <li><strong>IPTVDeutschland</strong>: der Anbieter von IPTV-Diensten, mit Sitz in den Niederlanden.</li>
+              <li><strong>Kunde</strong>: die natürliche oder juristische Person, die ein Abonnement bei IPTVDeutschland abschließt.</li>
+              <li><strong>Dienst</strong>: das IPTV-Abonnement und alle zugehörigen Dienste, die von IPTVDeutschland angeboten werden.</li>
+              <li><strong>Abonnement</strong>: die Vereinbarung zwischen IPTVDeutschland und dem Kunden zur Nutzung des Dienstes für einen bestimmten Zeitraum.</li>
+              <li><strong>Gerät</strong>: jedes Gerät (Smart TV, Smartphone, Tablet, Laptop oder anderes kompatibles Gerät), auf dem der Dienst genutzt wird.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">2. Toepasselijkheid</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">2. Anwendbarkeit</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>Deze Algemene Voorwaarden zijn van toepassing op alle aanbiedingen, overeenkomsten en diensten van IPTVNederland.</li>
-              <li>Door het afnemen van een abonnement gaat de Klant akkoord met deze voorwaarden.</li>
-              <li>IPTVNederland behoudt zich het recht voor deze voorwaarden te wijzigen. Wijzigingen worden minimaal 30 dagen van tevoren aangekondigd.</li>
-              <li>Afwijkingen van deze voorwaarden zijn alleen geldig indien schriftelijk overeengekomen.</li>
+              <li>Diese AGB gelten für alle Angebote, Vereinbarungen und Dienstleistungen von IPTVDeutschland.</li>
+              <li>Durch den Abschluss eines Abonnements stimmt der Kunde diesen Bedingungen zu.</li>
+              <li>IPTVDeutschland behält sich das Recht vor, diese Bedingungen zu ändern. Änderungen werden mindestens 30 Tage im Voraus angekündigt.</li>
+              <li>Abweichungen von diesen Bedingungen sind nur gültig, wenn sie schriftlich vereinbart wurden.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">3. Abonnementen en Prijzen</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">3. Abonnements und Preise</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>IPTVNederland biedt diverse abonnementsvormen aan, waaronder Prime (12 maanden), Popular (6 maanden) en Basic (1 maand).</li>
-              <li>De actuele prijzen staan vermeld op de website en kunnen per abonnementsvorm en aantal apparaten variëren.</li>
-              <li>Prijzen zijn inclusief btw, tenzij anders vermeld.</li>
-              <li>IPTVNederland behoudt zich het recht voor om prijzen aan te passen. Bestaande abonnementen worden pas bij verlenging aangepast.</li>
+              <li>IPTVDeutschland bietet verschiedene Abonnementformen an, darunter Prime (12 Monate), Popular (6 Monate) und Basic (1 Monat).</li>
+              <li>Die aktuellen Preise sind auf der Website aufgeführt und können je nach Abonnementform und Anzahl der Geräte variieren.</li>
+              <li>Preise verstehen sich inklusive Mehrwertsteuer, sofern nicht anders angegeben.</li>
+              <li>IPTVDeutschland behält sich das Recht vor, Preise anzupassen. Bestehende Abonnements werden erst bei Verlängerung angepasst.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">4. Bestelling en Betaling</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">4. Bestellung und Zahlung</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>Bestellingen worden geplaatst via WhatsApp of andere door IPTVNederland aangeboden kanalen.</li>
-              <li>Na ontvangst van de betaling wordt het abonnement geactiveerd en ontvangt de Klant de benodigde inloggegevens.</li>
-              <li>IPTVNederland accepteert de betaalmethoden zoals vermeld op de website.</li>
-              <li>Alle betalingen zijn definitief. Terugbetalingen worden uitsluitend verstrekt conform artikel 8 van deze voorwaarden.</li>
+              <li>Bestellungen werden über WhatsApp oder andere von IPTVDeutschland angebotene Kanäle aufgegeben.</li>
+              <li>Nach Zahlungseingang wird das Abonnement aktiviert und der Kunde erhält die erforderlichen Zugangsdaten.</li>
+              <li>IPTVDeutschland akzeptiert die auf der Website aufgeführten Zahlungsmethoden.</li>
+              <li>Alle Zahlungen sind endgültig. Rückerstattungen werden ausschließlich gemäß Artikel 8 dieser Bedingungen gewährt.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">5. Gebruik van de Dienst</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">5. Nutzung des Dienstes</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>De Klant mag de Dienst uitsluitend gebruiken op het aantal apparaten dat bij het gekozen abonnement hoort.</li>
-              <li>Het is niet toegestaan om inloggegevens te delen met derden buiten het eigen huishouden.</li>
-              <li>Het is verboden om de Dienst te gebruiken voor commerciële doeleinden, tenzij schriftelijk overeengekomen.</li>
-              <li>De Klant is verantwoordelijk voor het beveiligen van zijn/haar inloggegevens.</li>
-              <li>Bij misbruik of schending van deze voorwaarden kan IPTVNederland het abonnement per direct beëindigen zonder restitutie.</li>
+              <li>Der Kunde darf den Dienst ausschließlich auf der Anzahl von Geräten nutzen, die zum gewählten Abonnement gehören.</li>
+              <li>Es ist nicht gestattet, Zugangsdaten mit Dritten außerhalb des eigenen Haushalts zu teilen.</li>
+              <li>Die Nutzung des Dienstes für kommerzielle Zwecke ist verboten, sofern nicht schriftlich vereinbart.</li>
+              <li>Der Kunde ist für die Sicherung seiner Zugangsdaten verantwortlich.</li>
+              <li>Bei Missbrauch oder Verstoß gegen diese Bedingungen kann IPTVDeutschland das Abonnement sofort ohne Rückerstattung beenden.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">6. Beschikbaarheid en Kwaliteit</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">6. Verfügbarkeit und Qualität</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>IPTVNederland streeft naar een beschikbaarheid van 99,9% maar kan geen ononderbroken dienstverlening garanderen.</li>
-              <li>Gepland onderhoud wordt, waar mogelijk, vooraf aangekondigd.</li>
-              <li>IPTVNederland is niet aansprakelijk voor onderbrekingen veroorzaakt door omstandigheden buiten haar controle, waaronder storingen bij derden, internetproblemen of overmacht.</li>
-              <li>Het zenderaanbod kan wijzigen zonder voorafgaande kennisgeving.</li>
+              <li>IPTVDeutschland strebt eine Verfügbarkeit von 99,9 % an, kann jedoch keine ununterbrochene Dienstleistung garantieren.</li>
+              <li>Geplante Wartungsarbeiten werden, wo möglich, im Voraus angekündigt.</li>
+              <li>IPTVDeutschland haftet nicht für Unterbrechungen, die durch Umstände außerhalb ihrer Kontrolle verursacht werden, einschließlich Störungen bei Dritten, Internetproblemen oder höherer Gewalt.</li>
+              <li>Das Senderangebot kann ohne vorherige Ankündigung geändert werden.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">7. Duur en Beëindiging</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">7. Laufzeit und Kündigung</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>Het abonnement heeft de duur zoals gekozen bij het afsluiten (1, 6 of 12 maanden).</li>
-              <li>Het abonnement wordt niet automatisch verlengd. De Klant dient zelf een nieuw abonnement af te sluiten na afloop.</li>
-              <li>IPTVNederland kan het abonnement per direct beëindigen bij schending van deze voorwaarden door de Klant.</li>
-              <li>De Klant kan het abonnement op elk moment opzeggen, maar heeft geen recht op restitutie van reeds betaalde bedragen, tenzij anders bepaald in artikel 8.</li>
+              <li>Das Abonnement hat die beim Abschluss gewählte Laufzeit (1, 6 oder 12 Monate).</li>
+              <li>Das Abonnement verlängert sich nicht automatisch. Der Kunde muss nach Ablauf selbst ein neues Abonnement abschließen.</li>
+              <li>IPTVDeutschland kann das Abonnement bei Verstoß gegen diese Bedingungen durch den Kunden sofort beenden.</li>
+              <li>Der Kunde kann das Abonnement jederzeit kündigen, hat jedoch keinen Anspruch auf Rückerstattung bereits bezahlter Beträge, sofern in Artikel 8 nicht anders geregelt.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">8. Herroepingsrecht en Restitutie</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">8. Widerrufsrecht und Rückerstattung</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>De Klant heeft het recht om binnen 14 dagen na activering van het abonnement zonder opgaaf van redenen het abonnement te herroepen.</li>
-              <li>Om gebruik te maken van het herroepingsrecht dient de Klant contact op te nemen met IPTVNederland via WhatsApp of e-mail.</li>
-              <li>Bij herroeping binnen de gestelde termijn wordt het volledige bedrag gerestitueerd.</li>
-              <li>Na het verstrijken van de herroepingstermijn is restitutie niet meer mogelijk.</li>
+              <li>Der Kunde hat das Recht, das Abonnement innerhalb von 14 Tagen nach Aktivierung ohne Angabe von Gründen zu widerrufen.</li>
+              <li>Um das Widerrufsrecht auszuüben, muss der Kunde IPTVDeutschland per WhatsApp oder E-Mail kontaktieren.</li>
+              <li>Bei Widerruf innerhalb der genannten Frist wird der gesamte Betrag erstattet.</li>
+              <li>Nach Ablauf der Widerrufsfrist ist eine Rückerstattung nicht mehr möglich.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">9. Aansprakelijkheid</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">9. Haftung</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>IPTVNederland is niet aansprakelijk voor indirecte schade, gevolgschade of gederfde winst.</li>
-              <li>De totale aansprakelijkheid van IPTVNederland is beperkt tot het bedrag dat de Klant heeft betaald voor het lopende abonnement.</li>
-              <li>IPTVNederland is niet aansprakelijk voor schade veroorzaakt door het gebruik van de Dienst op niet-compatibele apparaten.</li>
-              <li>De Klant vrijwaart IPTVNederland voor aanspraken van derden die verband houden met het gebruik van de Dienst.</li>
+              <li>IPTVDeutschland haftet nicht für indirekte Schäden, Folgeschäden oder entgangene Gewinne.</li>
+              <li>Die Gesamthaftung von IPTVDeutschland ist auf den Betrag begrenzt, den der Kunde für das laufende Abonnement bezahlt hat.</li>
+              <li>IPTVDeutschland haftet nicht für Schäden, die durch die Nutzung des Dienstes auf nicht kompatiblen Geräten entstehen.</li>
+              <li>Der Kunde stellt IPTVDeutschland von Ansprüchen Dritter frei, die im Zusammenhang mit der Nutzung des Dienstes stehen.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">10. Privacy en Gegevensbescherming</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">10. Datenschutz</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>IPTVNederland verwerkt persoonsgegevens in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG).</li>
-              <li>Persoonsgegevens worden uitsluitend gebruikt voor het leveren van de Dienst en het communiceren met de Klant.</li>
-              <li>IPTVNederland deelt geen persoonsgegevens met derden, tenzij dit noodzakelijk is voor de uitvoering van de Dienst of wettelijk verplicht.</li>
-              <li>Voor meer informatie verwijzen wij naar ons Privacybeleid.</li>
+              <li>IPTVDeutschland verarbeitet personenbezogene Daten gemäß der Datenschutz-Grundverordnung (DSGVO).</li>
+              <li>Personenbezogene Daten werden ausschließlich für die Erbringung des Dienstes und die Kommunikation mit dem Kunden verwendet.</li>
+              <li>IPTVDeutschland gibt keine personenbezogenen Daten an Dritte weiter, sofern dies nicht für die Durchführung des Dienstes erforderlich oder gesetzlich vorgeschrieben ist.</li>
+              <li>Weitere Informationen finden Sie in unserer Datenschutzerklärung.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">11. Intellectueel Eigendom</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">11. Geistiges Eigentum</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>Alle intellectuele eigendomsrechten met betrekking tot de website, het merk en de Dienst berusten bij IPTVNederland.</li>
-              <li>Het is de Klant niet toegestaan om materialen van IPTVNederland te kopiëren, verspreiden of anderszins te gebruiken zonder schriftelijke toestemming.</li>
+              <li>Alle Rechte an geistigem Eigentum in Bezug auf die Website, die Marke und den Dienst liegen bei IPTVDeutschland.</li>
+              <li>Es ist dem Kunden nicht gestattet, Materialien von IPTVDeutschland ohne schriftliche Genehmigung zu kopieren, zu verbreiten oder anderweitig zu nutzen.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">12. Klachten en Geschillen</h2>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">12. Beschwerden und Streitigkeiten</h2>
             <ol className="list-decimal pl-6 space-y-2">
-              <li>Klachten kunnen worden ingediend via WhatsApp of e-mail op <a href="mailto:info@iptvnederland.digital" className="font-bold hover:underline" style={{ color: "#AE1C28" }}>info@iptvnederland.digital</a>.</li>
-              <li>IPTVNederland streeft ernaar klachten binnen 7 werkdagen te behandelen.</li>
-              <li>Op deze voorwaarden is Nederlands recht van toepassing.</li>
-              <li>Geschillen worden voorgelegd aan de bevoegde rechter in Nederland.</li>
+              <li>Beschwerden können per WhatsApp oder E-Mail an <a href="mailto:info@iptvnederland.digital" className="font-bold hover:underline" style={{ color: "#DD0000" }}>info@iptvnederland.digital</a> eingereicht werden.</li>
+              <li>IPTVDeutschland ist bestrebt, Beschwerden innerhalb von 7 Werktagen zu bearbeiten.</li>
+              <li>Auf diese Bedingungen findet niederländisches Recht Anwendung.</li>
+              <li>Streitigkeiten werden dem zuständigen Gericht in den Niederlanden vorgelegt.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">13. Contact</h2>
-            <p>Voor vragen over deze Algemene Voorwaarden kunt u contact met ons opnemen:</p>
+            <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">13. Kontakt</h2>
+            <p>Für Fragen zu diesen AGB können Sie uns kontaktieren:</p>
             <div className="mt-4 p-6 bg-gray-50 rounded-2xl border border-gray-100 space-y-2">
-              <p><strong>IPTVNederland</strong></p>
-              <p>E-mail: <a href="mailto:info@iptvnederland.digital" className="font-bold hover:underline" style={{ color: "#AE1C28" }}>info@iptvnederland.digital</a></p>
-              <p>Telefoon: <a href="tel:+447449708976" className="font-bold hover:underline" style={{ color: "#AE1C28" }}>+44 7449 708976</a></p>
-              <p>WhatsApp: <a href="https://api.whatsapp.com/send/?phone=447449708976&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline" style={{ color: "#AE1C28" }}>+44 7449 708976</a></p>
+              <p><strong>IPTVDeutschland</strong></p>
+              <p>E-Mail: <a href="mailto:info@iptvnederland.digital" className="font-bold hover:underline" style={{ color: "#DD0000" }}>info@iptvnederland.digital</a></p>
+              <p>Telefon: <a href="tel:+447449708976" className="font-bold hover:underline" style={{ color: "#DD0000" }}>+44 7449 708976</a></p>
+              <p>WhatsApp: <a href="https://api.whatsapp.com/send/?phone=447449708976&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline" style={{ color: "#DD0000" }}>+44 7449 708976</a></p>
             </div>
           </section>
         </div>

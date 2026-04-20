@@ -17,11 +17,11 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled, bannerOffset = 0, li
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'Kanalen', href: '/kanalen' },
+    { name: 'Sender', href: '/kanalen' },
     { name: 'Sport', href: '/sportklaender' },
-    { name: 'Voordelen', href: '/voordelen' },
-    { name: 'Prijzen', href: '/prijzen' },
-    { name: 'Kastje', href: '/kastje' },
+    { name: 'Vorteile', href: '/voordelen' },
+    { name: 'Preise', href: '/prijzen' },
+    { name: 'Box', href: '/kastje' },
     { name: 'Reseller', href: '/reseller' },
     { name: 'FAQ', href: '/faq' },
   ];
@@ -34,10 +34,10 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled, bannerOffset = 0, li
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-20 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer">
-            <div className="w-8 h-8 rounded-sm flex items-center justify-center" style={{ backgroundColor: '#21468B' }}>
+            <div className="w-8 h-8 rounded-sm flex items-center justify-center" style={{ backgroundColor: '#1C1C1C' }}>
               <div className="w-4 h-4 bg-white rotate-45"></div>
             </div>
-            <span className="text-xl font-extrabold tracking-tighter transition-colors duration-300" style={{ color: useLightText ? '#ffffff' : '#0D1B3E' }}>IPTVNederland</span>
+            <span className="text-xl font-extrabold tracking-tighter transition-colors duration-300" style={{ color: useLightText ? '#ffffff' : '#111111' }}>IPTVDeutschland</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -50,7 +50,7 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled, bannerOffset = 0, li
               )
             )}
             <div className="flex items-center gap-4 ml-4">
-              <Link to="/prijzen" className="px-6 py-2.5 rounded-full text-white hover:opacity-80 transition-all block text-center" style={{ backgroundColor: '#21468B' }}>Bekijk prijzen</Link>
+              <Link to="/prijzen" className="px-6 py-2.5 rounded-full text-white hover:opacity-80 transition-all block text-center" style={{ backgroundColor: '#1C1C1C' }}>Preise ansehen</Link>
             </div>
           </div>
 
@@ -92,9 +92,9 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled, bannerOffset = 0, li
               to="/prijzen"
               onClick={closeMenu}
               className="w-full py-5 rounded-3xl text-white text-xl font-bold hover:opacity-80 transition-all shadow-lg block text-center"
-              style={{ backgroundColor: '#21468B' }}
+              style={{ backgroundColor: '#1C1C1C' }}
             >
-              Bekijk prijzen
+              Preise ansehen
             </Link>
           </div>
         </div>

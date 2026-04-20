@@ -3,40 +3,40 @@ import { FAQItem, PricingPlan } from './types';
 
 export const FAQS: FAQItem[] = [
   {
-    question: "Hoe snel ontvang ik mijn toegang?",
-    answer: "Direct na betaling ontvang je binnen 5 minuten je logingegevens via WhatsApp. Setup duurt nog eens 5 minuten. Je kunt binnen 10 minuten al kijken."
+    question: "Wie schnell erhalte ich meinen Zugang?",
+    answer: "Direkt nach der Zahlung erhältst du innerhalb von 5 Minuten deine Zugangsdaten per WhatsApp. Die Einrichtung dauert nochmals 5 Minuten. Du kannst innerhalb von 10 Minuten loslegen."
   },
   {
-    question: "Hoe werkt de onboarding?",
-    answer: "Abonneer op een pakket en we sturen je direct je logingegevens via WhatsApp. Dit proces duurt ongeveer 5 minuten vanaf het moment dat je betaalt. Je krijgt ook een setup-handleiding meegestuurd."
+    question: "Wie funktioniert das Onboarding?",
+    answer: "Abonniere ein Paket und wir senden dir sofort deine Zugangsdaten per WhatsApp. Dieser Vorgang dauert etwa 5 Minuten ab dem Zeitpunkt der Zahlung. Du erhältst auch eine Einrichtungsanleitung mitgeschickt."
   },
   {
-    question: "Is IPTV legaal in Nederland?",
-    answer: "Ja, het gebruik van IPTV-diensten is legaal in Nederland. IPTVNederland is een legitieme IPTV-aanbieder met premium infrastructuur en 24/7 support."
+    question: "Ist IPTV in Deutschland legal?",
+    answer: "Ja, die Nutzung von IPTV-Diensten ist in Deutschland legal. IPTVDeutschland ist ein seriöser IPTV-Anbieter mit Premium-Infrastruktur und 24/7 Support."
   },
   {
-    question: "Zijn er beperkingen op aanvragen?",
-    answer: "Nee! Met je abonnement krijg je onbeperkte toegang tot alle 65.000+ kanalen en 175.000+ films & series. Stream zoveel je wilt."
+    question: "Gibt es Einschränkungen bei Anfragen?",
+    answer: "Nein! Mit deinem Abonnement erhältst du unbegrenzten Zugang zu allen 65.000+ Sendern und 175.000+ Filmen & Serien. Streame so viel du möchtest."
   },
   {
-    question: "Hoe werkt de pauze-functie?",
-    answer: "We begrijpen dat je niet altijd actief kijkt. Als je je abonnement pauzeert, wordt de factureringsperiode bevroren. Bijvoorbeeld: gebruik je 21 dagen en pauzeer je daarna, dan heb je nog 10 dagen over voor later."
+    question: "Wie funktioniert die Pause-Funktion?",
+    answer: "Wir verstehen, dass du nicht immer aktiv schaust. Wenn du dein Abonnement pausierst, wird der Abrechnungszeitraum eingefroren. Beispiel: Nutzt du 21 Tage und pausierst danach, hast du noch 10 Tage für später übrig."
   },
   {
-    question: "Krijg ik een gratis proefperiode?",
-    answer: "We bieden geen gratis proefperiodes aan. In plaats daarvan krijg je een 15-dagen geld-terug-garantie. Dit is beter omdat je volledige toegang hebt (niet beperkt) en meer tijd om alles grondig te testen."
+    question: "Bekomme ich eine kostenlose Testphase?",
+    answer: "Wir bieten keine kostenlosen Testzeiträume an. Stattdessen erhältst du eine 15-Tage-Geld-zurück-Garantie. Das ist besser, weil du vollen Zugang hast (nicht eingeschränkt) und mehr Zeit, alles gründlich zu testen."
   },
   {
-    question: "Welke apparaten worden ondersteund?",
-    answer: "IPTVNederland werkt op vrijwel alle apparaten: Smart TV's (Samsung, LG, Sony), Fire Stick, Apple TV, Android/iOS telefoons en tablets, PC/Mac, Android TV boxes, en meer."
+    question: "Welche Geräte werden unterstützt?",
+    answer: "IPTVDeutschland funktioniert auf nahezu allen Geräten: Smart TVs (Samsung, LG, Sony), Fire Stick, Apple TV, Android/iOS Telefone und Tablets, PC/Mac, Android TV Boxen und mehr."
   },
   {
-    question: "Buffer de stream?",
-    answer: "Nee! We gebruiken premium servers met 99.9% uptime garantie. Geen buffering, geen lag, geen onderbrekingen. Prime kwaliteit, altijd."
+    question: "Gibt es Buffering beim Stream?",
+    answer: "Nein! Wir nutzen Premium-Server mit 99,9% Uptime-Garantie. Kein Buffering, kein Lag, keine Unterbrechungen. Premium-Qualität, jederzeit."
   },
   {
-    question: "Krijg ik Nederlandse kanalen?",
-    answer: "Ja! Alle Nederlandse kanalen zijn inbegrepen: NPO 1/2/3, RTL 4/5/7/8, SBS6/9, Veronica, NET5, en meer. Plus Belgische en internationale kanalen."
+    question: "Bekomme ich deutsche Sender?",
+    answer: "Ja! Alle deutschen Sender sind inklusive: ARD, ZDF, RTL, ProSieben, Sat.1, VOX, kabel eins und viele mehr. Plus österreichische, schweizer und internationale Sender."
   }
 ];
 
@@ -65,8 +65,8 @@ export interface PeriodPlan {
 export const PERIOD_PLANS: PeriodPlan[] = [
   {
     months: 3,
-    label: "3 Maanden",
-    description: "3 MAANDEN TOEGANG",
+    label: "3 Monate",
+    description: "3 MONATE ZUGANG",
     tiers: [
       {
         tier: "Basis",
@@ -79,17 +79,17 @@ export const PERIOD_PLANS: PeriodPlan[] = [
           { devices: 4, price: "€69,99", monthlyPrice: "€23,33" }
         ],
         features: [
-          "SD/HD/FULL HD/UHD Kwaliteit",
-          "+80.000 Kanalen + Netflix",
-          "RTL, NPO, ZIGGO, SBS, ESPN",
-          "+140.000 Films & Series",
-          "Wekelijkse Updates",
-          "24/7 Support NL & BE",
-          "100% Anoniem",
+          "SD/HD/FULL HD/UHD Qualität",
+          "+80.000 Sender + Netflix",
+          "ARD, ZDF, RTL, ProSieben, Sat.1, DAZN",
+          "+140.000 Filme & Serien",
+          "Wöchentliche Updates",
+          "24/7 Support",
+          "100% Anonym",
           "AntiFreeze Technologie",
-          "Alle Apparaten",
-          "VPN Inbegrepen",
-          "Exclusieve NL & BE Content",
+          "Alle Geräte",
+          "VPN Inklusive",
+          "Exklusive Inhalte",
           "Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       },
@@ -105,26 +105,26 @@ export const PERIOD_PLANS: PeriodPlan[] = [
         ],
         features: [
           "SD/HD/FULL HD/4K/8K/HDR-VR",
-          "+80.000 Kanalen + Netflix",
-          "RTL, NPO, ZIGGO, SBS, ESPN, VTM",
-          "+200.000 Films & Series",
-          "Dagelijkse Updates",
+          "+80.000 Sender + Netflix",
+          "ARD, ZDF, RTL, ProSieben, Sky, DAZN",
+          "+200.000 Filme & Serien",
+          "Tägliche Updates",
           "Alle Sport PPV Events",
           "VIP 24/7 Support",
           "Enterprise Anti-Freeze PRO",
-          "Persoonlijke VIP Manager",
-          "Alle Apparaten",
-          "VPN Inbegrepen",
-          "Exclusieve VIP Content",
-          "Videoland, Netflix, Amazon, HBO, Apple TV, Hulu"
+          "Persönlicher VIP Manager",
+          "Alle Geräte",
+          "VPN Inklusive",
+          "Exklusive VIP Inhalte",
+          "Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       }
     ]
   },
   {
     months: 6,
-    label: "6 Maanden",
-    description: "6 MAANDEN TOEGANG",
+    label: "6 Monate",
+    description: "6 MONATE ZUGANG",
     tiers: [
       {
         tier: "Basis",
@@ -137,17 +137,17 @@ export const PERIOD_PLANS: PeriodPlan[] = [
           { devices: 4, price: "€109,99", monthlyPrice: "€18,33" }
         ],
         features: [
-          "SD/HD/FULL HD/UHD/4K Kwaliteit",
-          "+80.000 Kanalen + Netflix",
-          "RTL, NPO, ZIGGO, SBS, ESPN",
-          "+140.000 Films & Series",
-          "Wekelijkse Updates",
-          "24/7 Support NL & BE",
-          "100% Anoniem",
+          "SD/HD/FULL HD/UHD/4K Qualität",
+          "+80.000 Sender + Netflix",
+          "ARD, ZDF, RTL, ProSieben, Sat.1, DAZN",
+          "+140.000 Filme & Serien",
+          "Wöchentliche Updates",
+          "24/7 Support",
+          "100% Anonym",
           "AntiFreeze Technologie",
-          "Alle Apparaten",
-          "VPN Inbegrepen",
-          "Exclusieve NL & BE Content",
+          "Alle Geräte",
+          "VPN Inklusive",
+          "Exklusive Inhalte",
           "Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       },
@@ -155,7 +155,7 @@ export const PERIOD_PLANS: PeriodPlan[] = [
         tier: "Premium",
         price: "€79,99",
         monthlyPrice: "€10,00",
-        savings: "Bespaar 35%",
+        savings: "Spare 35%",
         devicePricing: [
           { devices: 1, price: "€44,99", monthlyPrice: "€7,50" },
           { devices: 2, price: "€79,99", monthlyPrice: "€10,00" },
@@ -164,32 +164,58 @@ export const PERIOD_PLANS: PeriodPlan[] = [
         ],
         features: [
           "SD/HD/FULL HD/4K/8K/HDR-VR",
-          "+80.000 Kanalen + Netflix",
-          "RTL, NPO, ZIGGO, SBS, ESPN, VTM",
-          "+200.000 Films & Series",
-          "Dagelijkse Updates",
+          "+80.000 Sender + Netflix",
+          "ARD, ZDF, RTL, ProSieben, Sky, DAZN",
+          "+200.000 Filme & Serien",
+          "Tägliche Updates",
           "Alle Sport PPV Events",
           "VIP 24/7 Support",
           "Enterprise Anti-Freeze PRO",
-          "Persoonlijke VIP Manager",
-          "Alle Apparaten",
-          "VPN Inbegrepen",
-          "Exclusieve VIP Content",
-          "Videoland, Netflix, Amazon, HBO, Apple TV, Hulu"
+          "Persönlicher VIP Manager",
+          "Alle Geräte",
+          "VPN Inklusive",
+          "Exklusive VIP Inhalte",
+          "Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       }
     ]
   },
   {
     months: 12,
-    label: "12+3 Maanden",
-    description: "12+3 MAANDEN TOEGANG",
+    label: "12+3 Monate",
+    description: "12+3 MONATE ZUGANG",
     tiers: [
+      {
+        tier: "Basis",
+        price: "€69,99",
+        monthlyPrice: "€4,67",
+        savings: "Spare 40%",
+        devicePricing: [
+          { devices: 1, price: "€69,99", monthlyPrice: "€4,67" },
+          { devices: 2, price: "€99,99", monthlyPrice: "€6,67" },
+          { devices: 3, price: "€129,99", monthlyPrice: "€8,67" },
+          { devices: 4, price: "€159,99", monthlyPrice: "€10,67" }
+        ],
+        features: [
+          "SD/HD/FULL HD Qualität",
+          "+50.000 Sender + Netflix",
+          "ARD, ZDF, RTL, ProSieben, ESPN, DAZN",
+          "+140.000 Filme & Serien",
+          "Wöchentliche Updates",
+          "24/7 Support",
+          "100% Anonym",
+          "AntiFreeze Technologie",
+          "Alle Geräte",
+          "VPN Inklusive",
+          "Exklusive Inhalte",
+          "Netflix, Amazon, HBO, Apple TV, Hulu"
+        ]
+      },
       {
         tier: "Premium",
         price: "€125,99",
         monthlyPrice: "€8,33",
-        savings: "Bespaar 50%",
+        savings: "Spare 50%",
         devicePricing: [
           { devices: 1, price: "€78,99", monthlyPrice: "€5,83" },
           { devices: 2, price: "€125,99", monthlyPrice: "€8,33" },
@@ -198,18 +224,18 @@ export const PERIOD_PLANS: PeriodPlan[] = [
         ],
         features: [
           "SD/HD/FULL HD/4K/8K/HDR-VR",
-          "+80.000 Kanalen + Netflix",
-          "RTL, NPO, ZIGGO, SBS, ESPN, VTM",
-          "+200.000 Films & Series",
-          "Dagelijkse Updates",
+          "+80.000 Sender + Netflix",
+          "ARD, ZDF, RTL, ProSieben, Sky, DAZN",
+          "+200.000 Filme & Serien",
+          "Tägliche Updates",
           "Alle Sport PPV Events",
           "VIP 24/7 Support",
           "Enterprise Anti-Freeze PRO",
-          "Persoonlijke VIP Manager",
-          "Alle Apparaten",
-          "VPN Inbegrepen",
-          "Exclusieve VIP Content",
-          "Videoland, Netflix, Amazon, HBO, Apple TV, Hulu"
+          "Persönlicher VIP Manager",
+          "Alle Geräte",
+          "VPN Inklusive",
+          "Exklusive VIP Inhalte",
+          "Netflix, Amazon, HBO, Apple TV, Hulu"
         ]
       }
     ]
@@ -217,8 +243,8 @@ export const PERIOD_PLANS: PeriodPlan[] = [
 ];
 
 export const SERVICES = [
-  "Nederlandse kanalen", "Belgische kanalen", "Sport live", "Films & Series", "Internationale kanalen", 
-  "VOD", "Catch-up TV", "EPG", "Multi-screen", "99.9% uptime", "HD & 4K", "Formule 1", "Eredivisie"
+  "Deutsche Sender", "Österreichische Sender", "Live Sport", "Filme & Serien", "Internationale Sender",
+  "VOD", "Catch-up TV", "EPG", "Multi-screen", "99,9% Uptime", "HD & 4K", "Formel 1", "Bundesliga"
 ];
 
 export const CHANNEL_LOGOS = [

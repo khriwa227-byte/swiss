@@ -40,14 +40,14 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Documentaire",
+    name: "Dokumentarfilm",
     icon: "🌍",
     channels: [
     "Animal Planet", "Animal Planet +1", "Animal Planet East", "Animal Planet FHD", "Animal Planet HD", "Animaux HD", "BBC Earth", "BBC Earth FHD", "BBC Earth HD", "Bein Nat Geo HD", "Bein Nat Geo People HD", "Bein Nat Geo Wild HD", "Caca & Pesca HD", "Caccia & Pesca HD", "Caccia E Pesca", "Canal De Historia", "Canal Discovery FHD", "Canal Historia", "Canal History HD", "Canal+ Discovery HD", "Caza & Pesca FHD", "CBS WOWK Huntington", "Crime+ Investigation", "Crime+ Investigation FHD", "Crime+ Investigation HD", "Discovery +1", "Discovery Asia", "Discovery Asia World", "Discovery Ch HD", "Discovery Channel", "Discovery Channel East", "Discovery Channel FHD", "Discovery Channel HD", "Discovery CI", "Discovery Civilization HD", "Discovery DTX", "Discovery Familia HD", "Discovery Family FHD", "Discovery Family HD", "Discovery Focus", "Discovery France HD", "Discovery Frisbee HD", "Discovery H & HD", "Discovery H&H", "Discovery H&H +1 HD", "Discovery H&H FHD", "Discovery Historia", "Discovery History HD", "Discovery Kids", "Discovery Kids FHD", "Discovery Kids HD", "Discovery Life HD", "Discovery MAX", "Discovery Nove HD", "Discovery Real Time HD", "Discovery Sci-Fi", "Discovery Sci-Fi HD", "Discovery Science", "Discovery Science FHD", "Discovery Science HD", "Discovery Science Hindi", "Discovery Serbia", "Discovery Shed HD", "Discovery Showcase", "Discovery Showcase FHD", "Discovery Showcase HD", "Discovery TH", "Discovery Theater FHD", "Discovery Theater HD", "Discovery TLC", "Discovery TLC HD", "Discovery TLC Pacific", "Discovery Turbo", "Discovery Turbo FHD", "Discovery Turbo HD", "Discovery Turbo Xtra", "Discovery Turbo Xtra FHD", "Discovery Velocity HD", "Discovery World", "Discovery World FHD", "Discovery World HD", "DMAX", "DMAX 1 HD", "DMAX FHD", "DMAX HD", "DMAX HD +1", "DMAX HQ", "Eagle Nature Discovery 4K", "Fishing & Hunting HD", "HGTV", "HGTV East", "HGTV FHD", "HGTV HD", "HGTV West", "Historia", "History", "History (FR)", "History / Blue Ant", "History 2", "History 2 FHD", "History 2 HD", "History Channel", "History Channel +1", "History Channel 2 HD", "History Channel East", "History Channel FHD", "History Channel HD", "History DUT FHD", "History GR", "History HD", "History JP", "History Lab", "Hunting", "I Discovery Sverige", "Investigation Discovery", "Investigation Discovery East", "Investigation Discovery FHD", "Investigation Discovery HD", "Investigation Discovery Xtra", "Investigation Discovery Xtra FHD", "Investigation Discovery Xtra HD", "Kurdmax", "Kurdmax HD", "Kurdmax HD (Kurmaji)", "Kurdmax Kurmanchi HD", "Kurdmax Kurmanji HD", "Kurdmax Pepule", "Kurdmax Pepule Kurmanci HD", "Kurdmax Pepûle Sorani HD", "Kurdmax Show Kurmanchi HD", "Kurdmax Show Kurmanci", "Kurdmax Show Kurmanji HD", "Kurdmax Show Sorani HD", "Kurdmax Show TV HD", "Kurdmax Sorani HD", "MyHD Animal Planet", "MyHD Aroma Discovery", "MyHD Discovery HD", "MyHD Discovery SC HD", "MyHD Discovery Science HD", "MyHD NAT GEO HD", "MyHD NAT GEO Kids", "MyHD NAT GEO People", "MyHD NAT GEO Wild HD", "NAT GEO", "NAT GEO Abu Dhabi", "NAT GEO East", "NAT GEO FHD", "NAT GEO HD", "NAT GEO Kids", "NAT GEO Kids FHD", "NAT GEO Kids HD", "NAT GEO Pacific", "NAT GEO People", "NAT GEO People FHD", "NAT GEO People HD", "NAT GEO Wild", "NAT GEO Wild East HD", "NAT GEO Wild FHD", "NAT GEO Wild HD", "NAT GEO Wild MYN", "Nature & History HD", "Nova Premiere History FHD", "OSN Animal Planet HD", "OSN Discovery Family HD", "OSN Discovery HD", "OSN Discovery History", "OSN Discovery Life HD", "OSN Discovery Science HD", "OSN Discovery Showcase", "OSN History 2", "OSN History Channel", "OSN Investigation Discovery", "OSN NAT GEO Abu Dhabi", "OSN NAT GEO HD", "OSN NAT GEO People HD", "OTE History HD", "Pescara TV", "Polsat Viasat History FHD", "Sci Discovery Science HD", "Science & Vie HD", "Science & Vie TV", "Sky Discovery Channel HD", "Sky Discovery Science", "Sky History HD", "Sky NAT GEO HD", "TeleClub Discovery Channel HD", "TLC Discovery", "Tring History", "TVP Historia", "Ushuaia HD", "Viasat History", "Viasat History FHD", "Viasat History HD", "Viasat Nature & History HD", "Viasat Nature/History HD", "X History HD"  
     ]
   },
   {
-    name: "Kinderen",
+    name: "Kinder",
     icon: "👶",
     channels: [
       // Netherlands Kids
@@ -111,7 +111,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Muziek",
+    name: "Musik",
     icon: "🎵",
     channels: [
       "NL MTV HD", "NL MTV Live HD", "NL MTV Hits HD", "NL VH1 HD", "NL Slam! TV HD",
@@ -121,7 +121,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Nieuws",
+    name: "Nachrichten",
     icon: "📰",
     channels: [
       "NL NPO Nieuws", "NL RTL Nieuws", "NL Euronews NL HD", "BE VRT NWS HD",
@@ -133,7 +133,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   },
   // === EUROPE ===
   {
-    name: "Nederland",
+    name: "Niederlande",
     icon: "🇳🇱",
     channels: [
       // Main TV Channels
@@ -188,7 +188,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "België",
+    name: "Belgien",
     icon: "🇧🇪",
     channels: [
       // Flemish Main Channels
@@ -326,7 +326,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Verenigd Koninkrijk",
+    name: "Vereinigtes Königreich",
     icon: "🇬🇧",
     channels: [
       // General FHD
@@ -519,7 +519,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Frankrijk",
+    name: "Frankreich",
     icon: "🇫🇷",
     channels: [
       // Main Channels
@@ -582,7 +582,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Spanje",
+    name: "Spanien",
     icon: "🇪🇸",
     channels: [
       // Main National Channels
@@ -645,7 +645,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Italië",
+    name: "Italien",
     icon: "🇮🇹",
     channels: [
       "IT Rai 1 HD", "IT Rai 1 FHD", "IT Rai 2 HD", "IT Rai 2 FHD", "IT Rai 3 HD", "IT Rai 3 FHD",
@@ -749,7 +749,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Griekenland",
+    name: "Griechenland",
     icon: "🇬🇷",
     channels: [
     // General
@@ -899,7 +899,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Zweden",
+    name: "Schweden",
     icon: "🇸🇪",
     channels: [
       // General
@@ -1029,7 +1029,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   "D-Play Extra 8"]
   },
   {
-    name: "Noorwegen",
+    name: "Norwegen",
     icon: "🇳🇴",
     channels: [
       "Corona Virus Info",
@@ -1119,7 +1119,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
  ]
   },
   {
-    name: "Denemarken",
+    name: "Dänemark",
     icon: "🇩🇰",
     channels: [
       // General
@@ -1160,19 +1160,19 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
       "Corona Virus Info", "Yle Tv Fem", "Yle Tv1 Hd", "Yle Tv2 Hd", "Yle Teema & Fem Hd", "Sf-Kanalen [Multi-Sub]", "Liv", "Nelonen", "Sub", "National Geographic Hd", "Discovery Channel", "Viasat Explorer", "Viasat History", "Disney Channel", "Nick Jr. Nordic", "C More First Fhd", "C More Hits Hd", "C More Juniori", "C More Max Hd", "C More Max Fhd", "Mtv3 Hd", "Jim", "Eurosport 1 Finland Hd", "Eurosport 1 Finland Fhd", "C More Sport 1 Hd", "C More Sport 1 Fhd", "C More Sport 2 Hd", "C More Sport 2 Fhd", "Viasat Sport Premium Hd", "Viasat Hockey Hd"]
   },
   {
-    name: "Oostenrijk",
+    name: "Österreich",
     icon: "🇦🇹",
     channels: [
       "Corona Virus Info", "Atv Hd", "Atv 2", "Orf 1 Hd", "Orf 2n Hd", "Orf 3 Hd", "Orf Sport+ Hd", "Puls 4 Hd", "Puls 24 Hd Austria", "Servus Tv Hd", "Orf2w Hd", "Melodie Tv", "Sky Sport Austria Hd", "Sky Sport Austria 1 Hd", "Sky Sport Austria 2 Hd", "Sky Sport Austria 3 Hd", "Sky Sport Austria 4 Hd", "Orf Sport Hd"]
   },
   {
-    name: "Zwitserland",
+    name: "Schweiz",
     icon: "🇨🇭",
     channels: [
      "Corona Virus Info", "Rsi La 1 HD", "Rsi La 2 HD", "Srf Info HD", "Srf Zwei HD", "Srf 1 HD", "Rts Un HD", "Rts Deux HD", "Plus 8 HD", "3+ HD", "4+ HD", "5+ HD", "Tv 24 HD", "Tv 25 HD", "Teleclub Action HD", "Teleclub Cinema HD", "Teleclub Zoom HD", "Teleclub Emotion HD", "Teleclub Sport 1 HD", "Teleclub Sport 2 HD", "My Sports HD", "My Sports 1 HD/Sky 1", "My Sports 2 HD/Sky 2", "My Sports 3 HD/Sky 3", "My Sports 4 HD/Sky 4", "My Sports 5 HD/Sky 5", "My Sports 6 HD/Sky 6", "My Sports 7 HD/Sky 7", "My Sports 8 HD/Sky 8", "My Sports 9 HD/Sky 9"]
   },
   {
-    name: "Roemenië",
+    name: "Rumänien",
     icon: "🇷🇴",
     channels: [
       // Romania
@@ -1321,7 +1321,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   "Telekom Sport 5" ]
   },
   {
-    name: "Hongarije",
+    name: "Ungarn",
     icon: "🇭🇺",
     channels: [
       "HU M1 HD", "HU M2 HD", "HU M4 Sport HD", "HU M5 HD", "HU Duna TV HD",
@@ -1331,7 +1331,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Tsjechië",
+    name: "Tschechien",
     icon: "🇨🇿",
     channels: [
       "CZ CT1 HD", "CZ CT2 HD", "CZ CT Sport HD", "CZ CT24 HD", "CZ Nova HD",
@@ -1341,7 +1341,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Slowakije",
+    name: "Slowakei",
     icon: "🇸🇰",
     channels: [
       "SK Jednotka HD", "SK Dvojka HD", "SK Markíza HD", "SK Doma HD", "SK Dajto HD",
@@ -1351,7 +1351,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Kroatië",
+    name: "Kroatien",
     icon: "🇭🇷",
     channels: [
       "HR HRT 1 HD", "HR HRT 2 HD", "HR HRT 3 HD", "HR HRT 4 HD", "HR Nova TV HD",
@@ -1361,7 +1361,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Servië",
+    name: "Serbien",
     icon: "🇷🇸",
     channels: [
       "RS RTS 1 HD", "RS RTS 2 HD", "RS RTS 3 HD", "RS Pink HD", "RS Prva HD",
@@ -1371,7 +1371,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Bulgarije",
+    name: "Bulgarien",
     icon: "🇧🇬",
     channels: [
       "BG BNT 1 HD", "BG BNT 2 HD", "BG bTV HD", "BG Nova TV BG HD", "BG Bulgaria ON AIR HD",
@@ -1381,7 +1381,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Slovenië",
+    name: "Slowenien",
     icon: "🇸🇮",
     channels: [
       "SI RTV SLO 1 HD", "SI RTV SLO 2 HD", "SI RTV SLO 3 HD", "SI POP TV HD", "SI Kanal A HD",
@@ -1391,7 +1391,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Bosnië",
+    name: "Bosnien",
     icon: "🇧🇦",
     channels: [
       "BA BHT 1 HD", "BA FTV HD", "BA RTRS HD", "BA Hayat TV HD", "BA Face TV HD",
@@ -1400,7 +1400,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Noord-Macedonië",
+    name: "Nordmazedonien",
     icon: "🇲🇰",
     channels: [
       "MK MRT 1 HD", "MK MRT 2 HD", "MK Sitel HD", "MK Kanal 5 HD", "MK Telma HD",
@@ -1409,7 +1409,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Albanië",
+    name: "Albanien",
     icon: "🇦🇱",
     channels: [
       "AL RTSH 1 HD", "AL RTSH 2 HD", "AL RTSH Sport HD", "AL Top Channel HD", "AL Klan TV HD",
@@ -1437,7 +1437,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Oekraïne",
+    name: "Ukraine",
     icon: "🇺🇦",
     channels: [
       "UA 1+1 HD", "UA Inter HD", "UA ICTV HD", "UA STB HD", "UA Novy HD",
@@ -1447,7 +1447,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Rusland",
+    name: "Russland",
     icon: "🇷🇺",
     channels: [
       "RU Perviy Kanal HD", "RU Rossiya 1 HD", "RU NTV HD", "RU REN TV HD", "RU STS HD",
@@ -1457,7 +1457,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Ierland",
+    name: "Irland",
     icon: "🇮🇪",
     channels: [
       "IE RTÉ One HD", "IE RTÉ Two HD", "IE Virgin Media One HD", "IE Virgin Media Two HD",
@@ -1466,7 +1466,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "IJsland",
+    name: "Island",
     icon: "🇮🇸",
     channels: [
       "IS RÚV HD", "IS RÚV 2 HD", "IS Stöð 2 HD", "IS Stöð 2 Sport HD", "IS Stöð 2 Sport 2 HD",
@@ -1489,7 +1489,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Cyprus",
+    name: "Zypern",
     icon: "🇨🇾",
     channels: [
       "CY RIK 1 HD", "CY RIK 2 HD", "CY Sigma TV HD", "CY ANT1 Cyprus HD", "CY Mega Cyprus HD",
@@ -1498,7 +1498,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Letland",
+    name: "Lettland",
     icon: "🇱🇻",
     channels: [
       "LV LTV1 HD", "LV LTV7 HD", "LV TV3 Latvia HD", "LV LNT HD", "LV TV6 Latvia HD",
@@ -1506,7 +1506,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Litouwen",
+    name: "Litauen",
     icon: "🇱🇹",
     channels: [
       "LT LRT HD", "LT LRT Plius HD", "LT TV3 Lithuania HD", "LT LNK HD", "LT BTV HD",
@@ -1523,7 +1523,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   },
   // === AMERICAS ===
   {
-    name: "Verenigde Staten",
+    name: "Vereinigte Staaten",
     icon: "🇺🇸",
     channels: [
       // General
@@ -1765,7 +1765,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Brazilië",
+    name: "Brasilien",
     icon: "🇧🇷",
     channels: [
       "BR Globo HD", "BR Globo FHD", "BR Globo SP HD", "BR Globo RJ HD", "BR Globo MG HD",
@@ -1806,7 +1806,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Argentinië",
+    name: "Argentinien",
     icon: "🇦🇷",
     channels: [
       "AR Canal 13 HD", "AR Telefe HD", "AR América TV HD", "AR TV Pública HD", "AR Canal 9 HD",
@@ -1815,7 +1815,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Colombia",
+    name: "Kolumbien",
     icon: "🇨🇴",
     channels: [
       "CO Caracol HD", "CO RCN HD", "CO Canal Uno HD", "CO Canal Institucional HD",
@@ -1859,7 +1859,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   },
   // === MIDDLE EAST ===
   {
-    name: "Turkije",
+    name: "Türkei",
     icon: "🇹🇷",
     channels: [
       "Trt Muzik Uhd", "Nr 1 Uhd", "Kral Tv Hd", "Kral Performans Tv Hd", "Kral Pop Hd",
@@ -1989,7 +1989,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Koeweit",
+    name: "Kuwait",
     icon: "🇰🇼",
     channels: [
       "KW KTV 1 HD", "KW KTV 2 HD", "KW KTV Sport HD", "KW Al Rai TV HD", "KW Scope TV HD",
@@ -1997,7 +1997,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Qatar",
+    name: "Katar",
     icon: "🇶🇦",
     channels: [
       "QA Al Jazeera Arabic HD", "QA Al Jazeera English HD", "QA beIN Sports 1 HD", "QA beIN Sports 2 HD",
@@ -2005,7 +2005,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Verenigde Arabische Emiraten",
+    name: "Vereinigte Arabische Emirate",
     icon: "🇦🇪",
     channels: [
       "AE Dubai TV HD", "AE Dubai One HD", "AE Abu Dhabi TV HD", "AE Abu Dhabi Sports 1 HD",
@@ -2013,7 +2013,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Egypte",
+    name: "Ägypten",
     icon: "🇪🇬",
     channels: [
       "EG Channel 1 HD", "EG Nile TV HD", "EG CBC HD", "EG CBC Drama HD", "EG ON E HD",
@@ -2030,7 +2030,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Jordanië",
+    name: "Jordanien",
     icon: "🇯🇴",
     channels: [
       "JO Jordan TV HD", "JO Al Mamlaka TV HD", "JO Roya TV HD", "JO Jordan Sport HD"
@@ -2046,7 +2046,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   },
   // === ASIA ===
   {
-    name: "India",
+    name: "Indien",
     icon: "🇮🇳",
     channels: [
       "IN Star Plus HD", "IN Star Plus FHD", "IN Star Bharat HD", "IN Star Pravah HD",
@@ -2093,7 +2093,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Bangladesh",
+    name: "Bangladesch",
     icon: "🇧🇩",
     channels: [
       "BD BTV HD", "BD Channel i HD", "BD ATN Bangla HD", "BD NTV HD", "BD Somoy TV HD",
@@ -2133,7 +2133,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Maleisië",
+    name: "Malaysia",
     icon: "🇲🇾",
     channels: [
       "MY TV1 HD", "MY TV2 HD", "MY TV3 HD", "MY ntv7 HD", "MY 8TV HD",
@@ -2142,7 +2142,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Indonesië",
+    name: "Indonesien",
     icon: "🇮🇩",
     channels: [
       "ID RCTI HD", "ID SCTV HD", "ID Indosiar HD", "ID Trans TV HD", "ID Trans7 HD",
@@ -2151,7 +2151,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Filipijnen",
+    name: "Philippinen",
     icon: "🇵🇭",
     channels: [
       "PH ABS-CBN HD", "PH GMA HD", "PH TV5 HD", "PH GMA News HD", "PH CNN Philippines HD",
@@ -2167,7 +2167,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Singapore",
+    name: "Singapur",
     icon: "🇸🇬",
     channels: [
       "SG Channel 5 HD", "SG Channel 8 HD", "SG Channel U HD", "SG CNA HD", "SG Suria HD",
@@ -2184,7 +2184,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Zuid-Korea",
+    name: "Südkorea",
     icon: "🇰🇷",
     channels: [
       "KR KBS1 HD", "KR KBS2 HD", "KR MBC HD", "KR SBS HD", "KR EBS HD",
@@ -2219,7 +2219,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   },
   // === AFRICA ===
   {
-    name: "Zuid-Afrika",
+    name: "Südafrika",
     icon: "🇿🇦",
     channels: [
       "ZA SABC 1 HD", "ZA SABC 2 HD", "ZA SABC 3 HD", "ZA e.tv HD", "ZA M-Net HD",
@@ -2260,7 +2260,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Algerije",
+    name: "Algerien",
     icon: "🇩🇿",
     channels: [
       "DZ ENTV HD", "DZ Canal Algérie HD", "DZ Echorouk TV HD", "DZ Ennahar TV HD",
@@ -2268,7 +2268,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Tunesië",
+    name: "Tunesien",
     icon: "🇹🇳",
     channels: [
       "TN Watania 1 HD", "TN Watania 2 HD", "TN Nessma TV HD", "TN Hannibal TV HD",
@@ -2276,7 +2276,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Ethiopië",
+    name: "Äthiopien",
     icon: "🇪🇹",
     channels: [
       "ET EBC HD", "ET Fana TV HD", "ET EBS TV HD", "ET Kana TV HD", "ET JTV HD",
@@ -2285,7 +2285,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
   },
   // === OCEANIA ===
   {
-    name: "Australië",
+    name: "Australien",
     icon: "🇦🇺",
     channels: [
       "AU ABC HD", "AU Nine HD", "AU Seven HD", "AU Ten HD", "AU SBS HD",
@@ -2295,7 +2295,7 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Nieuw-Zeeland",
+    name: "Neuseeland",
     icon: "🇳🇿",
     channels: [
       "NZ TVNZ 1 HD", "NZ TVNZ 2 HD", "NZ Three HD", "NZ Māori TV HD", "NZ Prime HD",
@@ -2327,14 +2327,14 @@ const CHANNEL_CATEGORIES: ChannelCategory[] = [
     ]
   },
   {
-    name: "Jamaica",
+    name: "Jamaika",
     icon: "🇯🇲",
     channels: [
       "JM TVJ HD", "JM CVM TV HD", "JM RETV HD", "JM Hype TV HD", "JM LOVE TV HD"
     ]
   },
   {
-    name: "Trinidad en Tobago",
+    name: "Trinidad und Tobago",
     icon: "🇹🇹",
     channels: [
       "TT TTT HD", "TT CNC3 HD", "TT TV6 HD", "TT CCN TV6 HD", "TT Synergy TV HD"
@@ -2372,12 +2372,12 @@ export const Channels: React.FC = () => {
     "Canada", "Mexico", "Brazilië", "Argentinië", "Colombia", "Chili", "Peru",
     "Venezuela", "Ecuador", "Israël", "Iran", "Koeweit", "Qatar",
     "Verenigde Arabische Emiraten", "Egypte", "Libanon", "Jordanië", "Irak",
-    "India", "Pakistan", "Bangladesh", "Sri Lanka", "Nepal", "Afghanistan",
-    "Thailand", "Maleisië", "Indonesië", "Filipijnen", "Vietnam", "Singapore",
-    "Japan", "Zuid-Korea", "China", "Hong Kong", "Taiwan",
-    "Zuid-Afrika", "Nigeria", "Kenia", "Ghana", "Marokko", "Algerije",
-    "Tunesië", "Ethiopië", "Australië", "Nieuw-Zeeland",
-    "Suriname", "Curaçao", "Aruba", "Jamaica", "Trinidad en Tobago"
+    "Indien", "Pakistan", "Bangladesch", "Sri Lanka", "Nepal", "Afghanistan",
+    "Thailand", "Malaysia", "Indonesien", "Philippinen", "Vietnam", "Singapur",
+    "Japan", "Südkorea", "China", "Hongkong", "Taiwan",
+    "Südafrika", "Nigeria", "Kenia", "Ghana", "Marokko", "Algerien",
+    "Tunesien", "Äthiopien", "Australien", "Neuseeland",
+    "Suriname", "Curaçao", "Aruba", "Jamaika", "Trinidad und Tobago"
   ];
 
   const filteredCategories = CHANNEL_CATEGORIES.filter(category => {
@@ -2410,27 +2410,27 @@ export const Channels: React.FC = () => {
     <div className="min-h-screen" style={{ backgroundColor: '#F5F5F5' }}>
 
       {/* ── Hero banner ── */}
-      <div className="relative overflow-hidden pt-36 pb-12" style={{ background: 'linear-gradient(135deg, #0D1B3E 0%, #21468B 60%, #0D1B3E 100%)' }}>
+      <div className="relative overflow-hidden pt-36 pb-12" style={{ background: 'linear-gradient(135deg, #111111 0%, #1C1C1C 60%, #111111 100%)' }}>
         <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{ backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(255,255,255,0.5) 3px, rgba(255,255,255,0.5) 4px)' }} />
-        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full opacity-10 blur-3xl" style={{ background: '#AE1C28' }} />
-        <div className="absolute -bottom-10 -left-20 w-60 h-60 rounded-full opacity-10 blur-3xl" style={{ background: '#21468B' }} />
+        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full opacity-10 blur-3xl" style={{ background: '#DD0000' }} />
+        <div className="absolute -bottom-10 -left-20 w-60 h-60 rounded-full opacity-10 blur-3xl" style={{ background: '#1C1C1C' }} />
 
         <div className="relative max-w-6xl mx-auto px-6 lg:px-20">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
               <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tighter text-white leading-tight">
-                Kanalen Overzicht
+                Sender Übersicht
               </h1>
               <p className="mt-2 text-sm font-medium" style={{ color: 'rgba(255,255,255,0.5)' }}>
-                <span className="font-bold text-white">65.000+</span> kanalen · <span className="font-bold text-white">70+</span> landen · 4K Ultra HD
+                <span className="font-bold text-white">65.000+</span> Sender · <span className="font-bold text-white">70+</span> Länder · 4K Ultra HD
               </p>
             </div>
 
             {/* Stats row */}
             <div className="flex gap-4 shrink-0">
               {[
-                { value: '65.000+', label: 'Kanalen' },
-                { value: '70+', label: 'Landen' },
+                { value: '65.000+', label: 'Sender' },
+                { value: '70+', label: 'Länder' },
                 { value: '99.9%', label: 'Uptime' },
               ].map(s => (
                 <div key={s.label} className="text-center">
@@ -2444,59 +2444,59 @@ export const Channels: React.FC = () => {
       </div>
 
       {/* ── Search & Filters ── */}
-      <div className="sticky top-0 z-40 border-b" style={{ background: 'rgba(245,245,245,0.95)', backdropFilter: 'blur(12px)', borderColor: 'rgba(33,70,139,0.1)' }}>
+      <div className="sticky top-0 z-40 border-b" style={{ background: 'rgba(245,245,245,0.95)', backdropFilter: 'blur(12px)', borderColor: 'rgba(28,28,28,0.1)' }}>
         <div className="max-w-6xl mx-auto px-6 lg:px-20 py-3 flex flex-col gap-3">
           {/* Search + select row */}
           <div className="flex flex-col sm:flex-row gap-3">
             <div className="flex-1 relative">
-              <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(33,70,139,0.4)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'rgba(28,28,28,0.4)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <input
                 type="text"
-                placeholder="Zoek kanalen..."
+                placeholder="Sender suchen..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-11 pr-4 py-2.5 rounded-xl text-sm font-semibold focus:outline-none focus:ring-2 transition-all"
-                style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(33,70,139,0.15)', color: '#0D1B3E' }}
+                style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(28,28,28,0.15)', color: '#111111' }}
               />
             </div>
             <select
               value={selectedCategory || ''}
               onChange={(e) => setSelectedCategory(e.target.value || null)}
               className="px-4 py-2.5 rounded-xl text-sm font-semibold focus:outline-none cursor-pointer"
-              style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(33,70,139,0.15)', color: '#0D1B3E', minWidth: '200px' }}
+              style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(28,28,28,0.15)', color: '#111111', minWidth: '200px' }}
             >
-              <option value="">Alle categorieën ({CHANNEL_CATEGORIES.length})</option>
-              <optgroup label="📺 Categorieën">
+              <option value="">Alle Kategorien ({CHANNEL_CATEGORIES.length})</option>
+              <optgroup label="📺 Kategorien">
                 {CHANNEL_CATEGORIES.slice(0, 7).map(cat => (
                   <option key={cat.name} value={cat.name}>{cat.icon} {cat.name}</option>
                 ))}
               </optgroup>
               <optgroup label="🇪🇺 Europa">
                 {CHANNEL_CATEGORIES.filter(cat =>
-                  ["Nederland", "België", "Duitsland", "Verenigd Koninkrijk", "Frankrijk", "Spanje", "Italië", "Portugal", "Polen", "Griekenland", "Zweden", "Noorwegen", "Denemarken", "Finland", "Oostenrijk", "Zwitserland", "Roemenië", "Hongarije", "Tsjechië", "Slowakije", "Kroatië", "Servië", "Bulgarije", "Slovenië", "Bosnië", "Noord-Macedonië", "Albanië", "Kosovo", "Montenegro", "Oekraïne", "Rusland", "Ierland", "IJsland", "Luxemburg", "Malta", "Cyprus", "Letland", "Litouwen", "Estland"].includes(cat.name)
+                  ["Niederlande", "Belgien", "Deutschland", "Vereinigtes Königreich", "Frankreich", "Spanien", "Italien", "Portugal", "Polen", "Griechenland", "Schweden", "Norwegen", "Dänemark", "Finland", "Österreich", "Schweiz", "Rumänien", "Ungarn", "Tschechien", "Slowakei", "Kroatien", "Serbien", "Bulgarien", "Slowenien", "Bosnien", "Nordmazedonien", "Albanien", "Kosovo", "Montenegro", "Ukraine", "Russland", "Irland", "Island", "Luxemburg", "Malta", "Zypern", "Lettland", "Litauen", "Estland"].includes(cat.name)
                 ).map(cat => (
                   <option key={cat.name} value={cat.name}>{cat.icon} {cat.name}</option>
                 ))}
               </optgroup>
               <optgroup label="🌎 Amerika">
                 {CHANNEL_CATEGORIES.filter(cat =>
-                  ["Verenigde Staten", "Canada", "Mexico", "Brazilië", "Argentinië", "Colombia", "Chili", "Peru", "Venezuela", "Ecuador", "Suriname", "Curaçao", "Aruba", "Jamaica", "Trinidad en Tobago"].includes(cat.name)
+                  ["Vereinigte Staaten", "Kanada", "Mexiko", "Brasilien", "Argentinien", "Kolumbien", "Chile", "Peru", "Venezuela", "Ecuador", "Suriname", "Curaçao", "Aruba", "Jamaika", "Trinidad und Tobago"].includes(cat.name)
                 ).map(cat => (
                   <option key={cat.name} value={cat.name}>{cat.icon} {cat.name}</option>
                 ))}
               </optgroup>
-              <optgroup label="🌍 Midden-Oosten & Afrika">
+              <optgroup label="🌍 Naher Osten & Afrika">
                 {CHANNEL_CATEGORIES.filter(cat =>
-                  ["Turkije", "Arabisch", "Israël", "Iran", "Koeweit", "Qatar", "Verenigde Arabische Emiraten", "Egypte", "Libanon", "Jordanië", "Irak", "Zuid-Afrika", "Nigeria", "Kenia", "Ghana", "Marokko", "Algerije", "Tunesië", "Ethiopië"].includes(cat.name)
+                  ["Türkei", "Arabisch", "Israel", "Iran", "Kuwait", "Katar", "Vereinigte Arabische Emirate", "Ägypten", "Libanon", "Jordanien", "Irak", "Südafrika", "Nigeria", "Kenia", "Ghana", "Marokko", "Algerien", "Tunesien", "Äthiopien"].includes(cat.name)
                 ).map(cat => (
                   <option key={cat.name} value={cat.name}>{cat.icon} {cat.name}</option>
                 ))}
               </optgroup>
-              <optgroup label="🌏 Azië & Oceanië">
+              <optgroup label="🌏 Asien & Ozeanien">
                 {CHANNEL_CATEGORIES.filter(cat =>
-                  ["India", "Pakistan", "Bangladesh", "Sri Lanka", "Nepal", "Afghanistan", "Thailand", "Maleisië", "Indonesië", "Filipijnen", "Vietnam", "Singapore", "Japan", "Zuid-Korea", "China", "Hong Kong", "Taiwan", "Australië", "Nieuw-Zeeland"].includes(cat.name)
+                  ["Indien", "Pakistan", "Bangladesch", "Sri Lanka", "Nepal", "Afghanistan", "Thailand", "Malaysia", "Indonesien", "Philippinen", "Vietnam", "Singapur", "Japan", "Südkorea", "China", "Hongkong", "Taiwan", "Australien", "Neuseeland"].includes(cat.name)
                 ).map(cat => (
                   <option key={cat.name} value={cat.name}>{cat.icon} {cat.name}</option>
                 ))}
@@ -2506,7 +2506,7 @@ export const Channels: React.FC = () => {
 
           {/* Quick filter pills */}
           <div className="flex items-center gap-2 flex-wrap">
-            {["Nederland", "België", "Frankrijk", "Duitsland", "Kinderen", "Spanje", "Denemarken", "Verenigd Koninkrijk", "Verenigde Staten", "Italië", "Portugal", "Turkije", "Sport", "Films & Series", "Nieuws"].map(name => {
+            {["Niederlande", "Belgien", "Frankreich", "Deutschland", "Kinder", "Spanien", "Dänemark", "Vereinigtes Königreich", "Vereinigte Staaten", "Italien", "Portugal", "Türkei", "Sport", "Films & Series", "Nachrichten"].map(name => {
               const cat = CHANNEL_CATEGORIES.find(c => c.name === name);
               if (!cat) return null;
               const active = selectedCategory === cat.name;
@@ -2516,15 +2516,15 @@ export const Channels: React.FC = () => {
                   onClick={() => setSelectedCategory(active ? null : cat.name)}
                   className="flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-200 hover:scale-[1.03]"
                   style={active
-                    ? { background: '#21468B', color: 'white', boxShadow: '0 4px 16px rgba(33,70,139,0.3)' }
-                    : { background: 'rgba(33,70,139,0.08)', color: '#21468B' }}
+                    ? { background: '#1C1C1C', color: 'white', boxShadow: '0 4px 16px rgba(28,28,28,0.3)' }
+                    : { background: 'rgba(28,28,28,0.08)', color: '#1C1C1C' }}
                 >
                   {cat.icon} {cat.name}
                 </button>
               );
             })}
-            <span className="ml-auto text-xs font-semibold" style={{ color: 'rgba(13,27,62,0.4)' }}>
-              {filteredCategories.reduce((s, c) => s + getFilteredChannels(c.channels).length, 0)} kanalen
+            <span className="ml-auto text-xs font-semibold" style={{ color: 'rgba(17,17,17,0.4)' }}>
+              {filteredCategories.reduce((s, c) => s + getFilteredChannels(c.channels).length, 0)} Sender
             </span>
           </div>
         </div>
@@ -2541,23 +2541,23 @@ export const Channels: React.FC = () => {
             <div
               key={category.name}
               className="rounded-2xl overflow-hidden"
-              style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(33,70,139,0.1)', backdropFilter: 'blur(12px)' }}
+              style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(28,28,28,0.1)', backdropFilter: 'blur(12px)' }}
             >
               <button
                 onClick={() => toggleCategory(category.name)}
-                className="w-full px-5 lg:px-6 py-4 flex items-center gap-3 text-left transition-colors hover:bg-blue-50/30"
+                className="w-full px-5 lg:px-6 py-4 flex items-center gap-3 text-left transition-colors hover:bg-gray-50/30"
               >
                 <span className="text-2xl shrink-0">{category.icon}</span>
-                <h2 className="text-base sm:text-lg font-extrabold tracking-tight truncate" style={{ color: '#0D1B3E' }}>
+                <h2 className="text-base sm:text-lg font-extrabold tracking-tight truncate" style={{ color: '#111111' }}>
                   {category.name}
                 </h2>
                 <span className="ml-auto flex items-center gap-2 shrink-0">
-                  <span className="text-xs font-black px-2.5 py-1 rounded-full text-white" style={{ background: '#21468B' }}>
-                    {channelsToShow.length}<span className="hidden sm:inline"> kanalen</span>
+                  <span className="text-xs font-black px-2.5 py-1 rounded-full text-white" style={{ background: '#1C1C1C' }}>
+                    {channelsToShow.length}<span className="hidden sm:inline"> Sender</span>
                   </span>
                   <svg
                     className={`w-5 h-5 transition-transform duration-300 shrink-0`}
-                    style={{ color: 'rgba(33,70,139,0.5)', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                    style={{ color: 'rgba(28,28,28,0.5)', transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)' }}
                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -2566,16 +2566,16 @@ export const Channels: React.FC = () => {
               </button>
 
               <div className={`transition-all duration-300 ease-in-out ${isExpanded ? 'max-h-[10000px] opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-                <div className="px-5 lg:px-6 pb-5 pt-1" style={{ borderTop: '1px solid rgba(33,70,139,0.08)' }}>
+                <div className="px-5 lg:px-6 pb-5 pt-1" style={{ borderTop: '1px solid rgba(28,28,28,0.08)' }}>
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-4">
                     {channelsToShow.map((channel, idx) => (
                       <div
                         key={idx}
                         className="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors"
-                        style={{ background: 'rgba(33,70,139,0.04)', border: '1px solid rgba(33,70,139,0.07)' }}
+                        style={{ background: 'rgba(28,28,28,0.04)', border: '1px solid rgba(28,28,28,0.07)' }}
                       >
-                        <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: '#AE1C28' }} />
-                        <span className="text-xs font-semibold truncate" style={{ color: '#0D1B3E' }}>{channel}</span>
+                        <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: '#DD0000' }} />
+                        <span className="text-xs font-semibold truncate" style={{ color: '#111111' }}>{channel}</span>
                       </div>
                     ))}
                   </div>
@@ -2590,21 +2590,21 @@ export const Channels: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-20 pb-16">
         <div
           className="rounded-3xl p-8 lg:p-10 flex flex-col sm:flex-row items-center justify-between gap-6 overflow-hidden relative"
-          style={{ background: 'linear-gradient(135deg, #0D1B3E 0%, #21468B 100%)' }}
+          style={{ background: 'linear-gradient(135deg, #111111 0%, #1C1C1C 100%)' }}
         >
-          <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full opacity-10 blur-2xl" style={{ background: '#AE1C28' }} />
+          <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full opacity-10 blur-2xl" style={{ background: '#DD0000' }} />
           <div className="text-center sm:text-left">
-            <p className="text-white font-extrabold text-xl tracking-tight">Klaar om te beginnen?</p>
+            <p className="text-white font-extrabold text-xl tracking-tight">Bereit loszulegen?</p>
             <p className="text-sm mt-1" style={{ color: 'rgba(255,255,255,0.5)' }}>
-              Alle kanalen inbegrepen bij elk abonnement — direct actief
+              Alle Sender in jedem Abonnement enthalten — sofort aktiv
             </p>
           </div>
           <a
             href="/prijzen"
-            className="shrink-0 inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-black text-white text-sm hover:scale-105 transition-transform shadow-[0_8px_32px_rgba(174,28,40,0.4)]"
-            style={{ background: 'linear-gradient(135deg, #AE1C28, #c0392b)' }}
+            className="shrink-0 inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-black text-white text-sm hover:scale-105 transition-transform shadow-[0_8px_32px_rgba(221,0,0,0.4)]"
+            style={{ background: 'linear-gradient(135deg, #DD0000, #cc0000)' }}
           >
-            Bekijk abonnementen
+            Abonnements ansehen
             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
           </a>
         </div>

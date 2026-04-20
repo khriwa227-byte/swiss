@@ -107,7 +107,7 @@ const DEVICES = [
   },
   {
     name: 'Android',
-    desc: 'Telefoon & Tablet',
+    desc: 'Telefon & Tablet',
     icon: (
       <svg viewBox="0 0 24 24" className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="7" y="4" width="10" height="16" rx="2"/>
@@ -156,7 +156,7 @@ const PAYMENT_METHODS = [
   { name: 'Visa', icon: <VisaIcon /> },
   { name: 'Mastercard', icon: <MastercardIcon /> },
   { name: 'iDEAL', icon: <IdealIcon /> },
-  { name: 'Bankoverschrijving', icon: <BankTransferIcon /> },
+  { name: 'Banküberweisung', icon: <BankTransferIcon /> },
   { name: 'Klarna', icon: <KlarnaIcon /> },
 ];
 
@@ -165,10 +165,10 @@ export const PaymentMethods: React.FC = () => {
     <section id="payment-methods" className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <div className="inline-block px-4 py-1.5 glass-card rounded-full text-xs font-bold uppercase tracking-widest mb-6">
-          Betaalmethoden
+          Zahlungsmethoden
         </div>
-        <h2 className="text-3xl lg:text-4xl font-black tracking-tighter mb-12" style={{ color: '#0D1B3E' }}>
-          Betaal zoals jij wilt
+        <h2 className="text-3xl lg:text-4xl font-black tracking-tighter mb-12" style={{ color: '#111111' }}>
+          Bezahle wie du möchtest
         </h2>
         <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-6">
           {PAYMENT_METHODS.map((method) => (
@@ -176,10 +176,10 @@ export const PaymentMethods: React.FC = () => {
               key={method.name}
               className="glass-card rounded-[28px] py-6 flex flex-col items-center gap-4 hover:bg-white transition-all duration-500 group cursor-default aspect-square max-h-[160px]"
             >
-              <div className="w-14 h-14 rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform shadow-xl flex-shrink-0" style={{ backgroundColor: '#21468B' }}>
+              <div className="w-14 h-14 rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform shadow-xl flex-shrink-0" style={{ backgroundColor: '#1C1C1C' }}>
                 {method.icon}
               </div>
-              <span className="text-xs font-bold tracking-tight text-center" style={{ color: '#0D1B3E' }}>{method.name}</span>
+              <span className="text-xs font-bold tracking-tight text-center" style={{ color: '#111111' }}>{method.name}</span>
             </div>
           ))}
         </div>
@@ -187,10 +187,10 @@ export const PaymentMethods: React.FC = () => {
         {/* Compatible Devices */}
         <div className="mt-20">
           <div className="inline-block px-4 py-1.5 glass-card rounded-full text-xs font-bold uppercase tracking-widest mb-6">
-            Compatibele Apparaten
+            Kompatible Geräte
           </div>
-          <h2 className="text-3xl lg:text-4xl font-black tracking-tighter mb-12" style={{ color: '#0D1B3E' }}>
-            Werkt op al jouw apparaten
+          <h2 className="text-3xl lg:text-4xl font-black tracking-tighter mb-12" style={{ color: '#111111' }}>
+            Funktioniert auf all deinen Geräten
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4">
             {DEVICES.map((device) => (
@@ -198,12 +198,12 @@ export const PaymentMethods: React.FC = () => {
                 key={device.name}
                 className="glass-card rounded-[28px] p-5 flex flex-col items-center gap-3 hover:bg-white transition-all duration-500 group cursor-default"
               >
-                <div className="w-14 h-14 rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform shadow-xl flex-shrink-0" style={{ backgroundColor: '#0D1B3E' }}>
+                <div className="w-14 h-14 rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform shadow-xl flex-shrink-0" style={{ backgroundColor: '#111111' }}>
                   {device.icon}
                 </div>
                 <div className="text-center">
-                  <div className="text-xs font-black tracking-tight" style={{ color: '#0D1B3E' }}>{device.name}</div>
-                  <div className="text-[10px] font-medium mt-0.5" style={{ color: 'rgba(13,27,62,0.5)' }}>{device.desc}</div>
+                  <div className="text-xs font-black tracking-tight" style={{ color: '#111111' }}>{device.name}</div>
+                  <div className="text-[10px] font-medium mt-0.5" style={{ color: 'rgba(17,17,17,0.5)' }}>{device.desc}</div>
                 </div>
               </div>
             ))}
@@ -213,10 +213,10 @@ export const PaymentMethods: React.FC = () => {
         {/* Compatible Apps */}
         <div className="mt-20">
           <div className="inline-block px-4 py-1.5 glass-card rounded-full text-xs font-bold uppercase tracking-widest mb-6">
-            Compatibele Apps
+            Kompatible Apps
           </div>
-          <h2 className="text-3xl lg:text-4xl font-black tracking-tighter mb-12" style={{ color: '#0D1B3E' }}>
-            Gebruik jouw favoriete app
+          <h2 className="text-3xl lg:text-4xl font-black tracking-tighter mb-12" style={{ color: '#111111' }}>
+            Nutze deine Lieblingsapp
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {[
@@ -227,9 +227,9 @@ export const PaymentMethods: React.FC = () => {
               { name: 'OTT Navigator', desc: 'Android · Android TV', color: '#FF6F00' },
               { name: 'Smart IPTV', desc: 'Samsung · LG Smart TV', color: '#0288D1' },
               { name: 'VLC', desc: 'Windows · Mac · Linux', color: '#FF8800' },
-              { name: 'Kodi', desc: 'Alle platforms', color: '#17B2E8' },
-              { name: 'IBO Player', desc: 'iOS · Android · Smart TV', color: '#21468B' },
-              { name: 'Hot Player', desc: 'Android · Smart TV', color: '#AE1C28' },
+              { name: 'Kodi', desc: 'Alle Plattformen', color: '#17B2E8' },
+              { name: 'IBO Player', desc: 'iOS · Android · Smart TV', color: '#1C1C1C' },
+              { name: 'Hot Player', desc: 'Android · Smart TV', color: '#DD0000' },
               { name: 'SmarterIPTV', desc: 'Samsung · LG Smart TV', color: '#2E7D32' },
             ].map((app) => (
               <div
@@ -243,8 +243,8 @@ export const PaymentMethods: React.FC = () => {
                   {app.name.charAt(0)}
                 </div>
                 <div className="text-center">
-                  <div className="text-xs font-black tracking-tight leading-tight" style={{ color: '#0D1B3E' }}>{app.name}</div>
-                  <div className="text-[10px] font-medium mt-1" style={{ color: 'rgba(13,27,62,0.5)' }}>{app.desc}</div>
+                  <div className="text-xs font-black tracking-tight leading-tight" style={{ color: '#111111' }}>{app.name}</div>
+                  <div className="text-[10px] font-medium mt-1" style={{ color: 'rgba(17,17,17,0.5)' }}>{app.desc}</div>
                 </div>
               </div>
             ))}
