@@ -220,28 +220,27 @@ export const PaymentMethods: React.FC = () => {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {[
-              { name: 'IPTV Smarters Pro', desc: 'iOS · Android · Smart TV', color: '#E8372C' },
-              { name: 'TiviMate', desc: 'Android TV · Fire Stick', color: '#1976D2' },
-              { name: 'GSE Smart IPTV', desc: 'iOS · Android · macOS', color: '#34A853' },
-              { name: 'Perfect Player', desc: 'Android · PC', color: '#9C27B0' },
-              { name: 'OTT Navigator', desc: 'Android · Android TV', color: '#FF6F00' },
-              { name: 'Smart IPTV', desc: 'Samsung · LG Smart TV', color: '#0288D1' },
-              { name: 'VLC', desc: 'Windows · Mac · Linux', color: '#FF8800' },
-              { name: 'Kodi', desc: 'Alle Plattformen', color: '#17B2E8' },
-              { name: 'IBO Player', desc: 'iOS · Android · Smart TV', color: '#1C1C1C' },
-              { name: 'Hot Player', desc: 'Android · Smart TV', color: '#DD0000' },
-              { name: 'SmarterIPTV', desc: 'Samsung · LG Smart TV', color: '#2E7D32' },
+              { name: 'IPTV Smarters Pro', desc: 'iOS · Android · Smart TV', img: '/assets/apps/iptv-smarters-pro.png' },
+              { name: 'IPTV Smarters', desc: 'iOS · Android · Smart TV', img: '/assets/apps/iptv-smarters.png' },
+              { name: 'TiviMate', desc: 'Android TV · Fire Stick', img: '/assets/apps/tivimate.png' },
+              { name: 'SE Smart IPTV', desc: 'iOS · Android · macOS', img: '/assets/apps/se-smart-iptv.png' },
+              { name: 'Smart IPTV', desc: 'Samsung · LG Smart TV', img: '/assets/apps/smart-iptv.png' },
+              { name: 'VLC', desc: 'Windows · Mac · Linux', img: '/assets/apps/vlc.png' },
+              { name: 'Kodi', desc: 'Alle Plattformen', img: '/assets/apps/kodi.png' },
+              { name: 'IBO Player Pro', desc: 'iOS · Android · Smart TV', img: '/assets/apps/iboplayer-pro.png' },
+              { name: 'Hot Player', desc: 'Android · Smart TV', img: '/assets/apps/hotplayer.png' },
+              { name: 'BOB Player', desc: 'Android · Smart TV', img: '/assets/apps/bob-player.png' },
+              { name: 'TV Online', desc: 'Android · Smart TV', img: '/assets/apps/tvonline1.png' },
             ].map((app) => (
               <div
                 key={app.name}
                 className="glass-card rounded-3xl p-6 flex flex-col items-center gap-3 hover:bg-white transition-all duration-500 group cursor-default"
               >
-                <div
-                  className="w-14 h-14 rounded-2xl flex items-center justify-center text-white font-black text-lg group-hover:scale-110 transition-transform shadow-xl flex-shrink-0"
-                  style={{ backgroundColor: app.color }}
-                >
-                  {app.name.charAt(0)}
-                </div>
+                <img
+                  src={app.img}
+                  alt={app.name}
+                  className="w-14 h-14 rounded-2xl object-contain group-hover:scale-110 transition-transform shadow-xl flex-shrink-0"
+                />
                 <div className="text-center">
                   <div className="text-xs font-black tracking-tight leading-tight" style={{ color: '#111111' }}>{app.name}</div>
                   <div className="text-[10px] font-medium mt-1" style={{ color: 'rgba(17,17,17,0.5)' }}>{app.desc}</div>

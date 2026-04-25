@@ -247,14 +247,25 @@ export const SERVICES = [
   "VOD", "Catch-up TV", "EPG", "Multi-screen", "99,9% Uptime", "HD & 4K", "Formel 1", "Bundesliga"
 ];
 
+export const STREAMING_SERVICES = [
+  { name: "Netflix", logo: "/assets/streaming/neflix.png" },
+  { name: "Prime Video", logo: "/assets/streaming/primevideo.png" },
+  { name: "Apple TV+", logo: "/assets/streaming/appletv.png" },
+  { name: "Hulu", logo: "/assets/streaming/HULU.png" },
+  { name: "WOW", logo: "/assets/streaming/WOW_Logo_2022.svg" },
+  { name: "DAZN", logo: "/assets/streaming/dazn.png" },
+  { name: "Disney+", logo: "/assets/streaming/disnep.png" },
+  { name: "Joyn", logo: "/assets/channels/joyn.svg" },
+  { name: "Warner TV", logo: "/assets/streaming/warnertv.png" },
+];
+
 export const CHANNEL_LOGOS = [
-  { name: "ESPN", logo: "/assets/channels/espn.png" },
   { name: "Viaplay", logo: "/assets/channels/viaplay.png" },
-  { name: "Ziggo Sport", logo: "/assets/channels/ziggo-sport.png" },
   { name: "Eurosport", logo: "/assets/channels/eurosport.png" },
   { name: "Sky Sports", logo: "/assets/channels/sky-sports.png" },
   { name: "DAZN", logo: "/assets/channels/dazn.png" },
-  { name: "F1", logo: "/assets/channels/f1.png" }
+  { name: "F1", logo: "/assets/channels/f1.png" },
+  { name: "MagentaTV", logo: "/assets/channels/magenta.png" },
 ];
 
 export const TOP_FILMS = [

@@ -43,7 +43,28 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-32 pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="mt-24 pt-12 border-t border-white/10">
+          <p className="text-center text-sm font-bold uppercase tracking-widest text-white/40 mb-8">Kompatible Apps</p>
+          <div className="flex flex-wrap justify-center items-center gap-6">
+            {[
+              { src: '/assets/apps/vlc.png', alt: 'VLC' },
+              { src: '/assets/apps/kodi.png', alt: 'Kodi' },
+              { src: '/assets/apps/tivimate.png', alt: 'TiviMate' },
+              { src: '/assets/apps/iptv-smarters-pro.png', alt: 'IPTV Smarters Pro' },
+              { src: '/assets/apps/iptv-smarters.png', alt: 'IPTV Smarters' },
+              { src: '/assets/apps/smart-iptv.png', alt: 'Smart IPTV' },
+              { src: '/assets/apps/se-smart-iptv.png', alt: 'SE Smart IPTV' },
+              { src: '/assets/apps/iboplayer-pro.png', alt: 'IBO Player Pro' },
+              { src: '/assets/apps/hotplayer.png', alt: 'Hot Player' },
+              { src: '/assets/apps/bob-player.png', alt: 'BOB Player' },
+              { src: '/assets/apps/tvonline1.png', alt: 'TV Online' },
+            ].map((app) => (
+              <img key={app.alt} src={app.src} alt={app.alt} title={app.alt} className="h-12 w-12 object-contain rounded-xl opacity-70 hover:opacity-100 transition-opacity" />
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-12 pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-sm flex items-center justify-center" style={{ backgroundColor: '#DD0000' }}>
               <div className="w-4 h-4 bg-white rotate-45"></div>

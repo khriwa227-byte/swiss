@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { SERVICES, TOP_FILMS, CHANNEL_LOGOS, TOP_TVSHOWS_NL, TOP_TVSHOWS_INTL } from '../constants';
+import { SERVICES, TOP_FILMS, CHANNEL_LOGOS, TOP_TVSHOWS_INTL } from '../constants';
 
 const MoviePoster: React.FC<{ title: string; posterUrl: string }> = ({ title, posterUrl }) => (
   <div className="flex-shrink-0 group cursor-pointer">
@@ -19,7 +19,7 @@ const MoviePoster: React.FC<{ title: string; posterUrl: string }> = ({ title, po
 
 const ChannelLogo: React.FC<{ name: string; logo: string }> = ({ name, logo }) => (
   <div
-    className="flex-shrink-0 px-6 py-4 rounded-2xl flex items-center justify-center h-20 min-w-[160px] opacity-70 hover:opacity-100 transition-all duration-500 shadow-lg hover:shadow-xl group overflow-hidden"
+    className="flex-shrink-0 px-6 py-4 rounded-2xl flex items-center justify-center h-20 min-w-[160px] transition-all duration-500 shadow-lg hover:shadow-xl group overflow-hidden"
     style={{ background: 'rgba(255,255,255,0.95)', border: '1px solid rgba(255,255,255,0.2)' }}
   >
     <img
@@ -123,32 +123,6 @@ export const FilmsAndShows: React.FC = () => {
             <div className="marquee-content py-4" style={{ animationDuration: '60s' }}>
               {TOP_FILMS.map((film, i) => (
                 <MoviePoster key={`dup-${i}`} title={film.title} posterUrl={film.posterUrl || `https://picsum.photos/seed/movie-${i}/400/600`} />
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Dutch TV Shows Marquee Section */}
-        <div className="space-y-8 mb-20">
-          <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end px-2 text-center lg:text-left">
-            <div>
-              <div className="text-xs font-bold uppercase tracking-widest text-[#DD0000] mb-2">Niederländische Serien</div>
-              <h3 className="text-2xl lg:text-3xl font-black tracking-tighter" style={{ color: '#111111' }}>Top TV Shows aus den Niederlanden</h3>
-            </div>
-            <div className="hidden md:block text-sm font-bold text-white/50 uppercase tracking-widest mt-4 lg:mt-0">
-              Exklusive Inhalte
-            </div>
-          </div>
-
-          <div className="marquee-container -mx-6 overflow-hidden">
-            <div className="marquee-content py-4" style={{ animationDuration: '50s', animationDirection: 'reverse' }}>
-              {TOP_TVSHOWS_NL.map((show, i) => (
-                <MoviePoster key={i} title={show.title} posterUrl={show.posterUrl} />
-              ))}
-            </div>
-            <div className="marquee-content py-4" style={{ animationDuration: '50s', animationDirection: 'reverse' }}>
-              {TOP_TVSHOWS_NL.map((show, i) => (
-                <MoviePoster key={`dup-${i}`} title={show.title} posterUrl={show.posterUrl} />
               ))}
             </div>
           </div>

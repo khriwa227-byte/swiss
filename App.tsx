@@ -18,6 +18,7 @@ import { SeoContent } from './components/SeoContent';
 import { SportEvents } from './components/SportEvents';
 import { SportCalendar } from './components/SportCalendar';
 import { Kastje } from './components/Kastje';
+import { StreamingServices } from './components/StreamingServices';
 
 const BANNER_HEIGHT = 48;
 
@@ -97,6 +98,7 @@ const HomePage: React.FC = () => (
     <section className="reveal"><Hero /></section>
     <section className="reveal"><SportEvents /></section>
     <section className="reveal"><FilmsAndShows /></section>
+    <section className="reveal"><StreamingServices /></section>
     <section className="reveal"><Pricing /></section>
     <section className="reveal"><Benefits /></section>
     <section className="reveal"><ServicesGrid /></section>
