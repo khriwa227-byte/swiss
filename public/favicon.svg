@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="4" fill="#D52B1E"/>
-  <rect x="13.5" y="4" width="5" height="24" fill="white"/>
-  <rect x="4" y="13.5" width="24" height="5" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="rounded-clip">
+      <rect width="1000" height="1000" rx="160" ry="160"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#rounded-clip)">
+    <rect width="1000" height="1000" fill="#D52B1E"/>
+    <rect x="425" y="175" width="150" height="650" fill="white"/>
+    <rect x="175" y="425" width="650" height="150" fill="white"/>
+    <rect width="1000" height="1000" rx="160" ry="160" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4"/>
+  </g>
 </svg>
