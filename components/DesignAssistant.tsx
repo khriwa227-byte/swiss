@@ -50,7 +50,6 @@ export const DesignAssistant: React.FC = () => {
         .map(m => `${m.role === 'user' ? 'Kunde' : 'Support'}: ${m.content}`)
         .join('\n');
       const whatsappUrl = `https://api.whatsapp.com/send/?phone=447449708976&text=${encodeURIComponent(conversationText)}&type=phone_number&app_absent=0`;
-      (window as any).gtag?.('event', 'conversion', { send_to: 'AW-18116637757/wWiHCJafnaMcEL3o175D' });
       window.open(whatsappUrl, '_blank');
     } finally {
       setIsLoading(false);

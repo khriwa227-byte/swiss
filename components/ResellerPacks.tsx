@@ -40,7 +40,6 @@ export const ResellerPacks: React.FC = () => {
   const whatsappNumber = '447449708976';
 
   const handleSubscribe = (credits: number) => {
-    (window as any).gtag?.('event', 'conversion', { send_to: 'AW-18116637757/wWiHCJafnaMcEL3o175D' });
     const message = `Hallo, ich möchte das ${credits} CREDITS Reseller-Paket bestellen.`;
     window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
@@ -179,7 +178,6 @@ export const ResellerPacks: React.FC = () => {
             href={`https://wa.me/${whatsappNumber}`}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => (window as any).gtag?.('event', 'conversion', { send_to: 'AW-18116637757/wWiHCJafnaMcEL3o175D' })}
             className="inline-flex items-center gap-2 px-8 py-4 bg-green-500 text-white rounded-full font-bold text-lg hover:bg-green-600 transition-all shadow-lg"
           >
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

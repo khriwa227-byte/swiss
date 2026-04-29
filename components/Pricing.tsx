@@ -375,7 +375,6 @@ export const Pricing: React.FC = () => {
                     href={getWhatsAppUrl(tier)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    onClick={() => (window as any).gtag?.('event', 'conversion', { send_to: 'AW-18116637757/wWiHCJafnaMcEL3o175D' })}
                     className="w-full py-6 text-xl font-black rounded-3xl transition-all block text-center active:scale-95"
                     style={
                       isPremium
