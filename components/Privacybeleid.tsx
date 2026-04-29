@@ -22,7 +22,7 @@ export const Privacybeleid: React.FC = () => {
           <section>
             <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">1. Einleitung</h2>
             <p>
-              IPTVDeutschland, mit Sitz in den Niederlanden, legt großen Wert auf den Schutz Ihrer personenbezogenen Daten. In dieser Datenschutzerklärung erläutern wir, welche Daten wir erheben, warum wir diese erheben, wie wir sie verwenden und welche Rechte Sie haben. Diese Richtlinie gilt für alle Dienste, die von IPTVDeutschland angeboten werden.
+              IPTVSchweizer, mit Sitz in der Schweiz, legt großen Wert auf den Schutz Ihrer personenbezogenen Daten. In dieser Datenschutzerklärung erläutern wir, welche Daten wir erheben, warum wir diese erheben, wie wir sie verwenden und welche Rechte Sie haben. Diese Richtlinie gilt für alle Dienste, die von IPTVSchweizer angeboten werden.
             </p>
           </section>
 
@@ -65,7 +65,7 @@ export const Privacybeleid: React.FC = () => {
 
           <section>
             <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">5. Weitergabe von Daten an Dritte</h2>
-            <p className="mb-4">IPTVDeutschland gibt Ihre personenbezogenen Daten nicht an Dritte weiter, außer wenn:</p>
+            <p className="mb-4">IPTVSchweizer gibt Ihre personenbezogenen Daten nicht an Dritte weiter, außer wenn:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Dies für die Erfüllung des Vertrags notwendig ist (z.B. Zahlungsdienstleister).</li>
               <li>Wir dazu gesetzlich verpflichtet sind (z.B. auf Anfrage einer zuständigen Behörde).</li>
@@ -98,7 +98,7 @@ export const Privacybeleid: React.FC = () => {
           <section>
             <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">8. Sicherheit</h2>
             <p>
-              IPTVDeutschland ergreift angemessene technische und organisatorische Maßnahmen, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Verlust, Zerstörung oder Änderung zu schützen. Trotz unserer Bemühungen kann keine Methode der elektronischen Speicherung oder Übertragung als vollständig sicher garantiert werden.
+              IPTVSchweizer ergreift angemessene technische und organisatorische Maßnahmen, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Verlust, Zerstörung oder Änderung zu schützen. Trotz unserer Bemühungen kann keine Methode der elektronischen Speicherung oder Übertragung als vollständig sicher garantiert werden.
             </p>
           </section>
 
@@ -129,7 +129,7 @@ export const Privacybeleid: React.FC = () => {
           <section>
             <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">11. Änderungen</h2>
             <p>
-              IPTVDeutschland behält sich das Recht vor, diese Datenschutzerklärung zu ändern. Änderungen werden auf dieser Seite veröffentlicht. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen. Bei wesentlichen Änderungen werden wir Sie aktiv darüber informieren.
+              IPTVSchweizer behält sich das Recht vor, diese Datenschutzerklärung zu ändern. Änderungen werden auf dieser Seite veröffentlicht. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu überprüfen. Bei wesentlichen Änderungen werden wir Sie aktiv darüber informieren.
             </p>
           </section>
 
@@ -137,10 +137,10 @@ export const Privacybeleid: React.FC = () => {
             <h2 className="text-2xl font-extrabold text-black tracking-tight mb-4">12. Kontakt</h2>
             <p>Für Fragen zu dieser Datenschutzerklärung oder zur Verarbeitung Ihrer personenbezogenen Daten können Sie uns kontaktieren:</p>
             <div className="mt-4 p-6 bg-gray-50 rounded-2xl border border-gray-100 space-y-2">
-              <p><strong>IPTVDeutschland</strong></p>
-              <p>E-Mail: <a href="mailto:info@iptvnederland.digital" className="font-bold hover:underline" style={{ color: "#DD0000" }}>info@iptvnederland.digital</a></p>
-              <p>Telefon: <a href="tel:+447449708976" className="font-bold hover:underline" style={{ color: "#DD0000" }}>+44 7449 708976</a></p>
-              <p>WhatsApp: <a href="https://api.whatsapp.com/send/?phone=447449708976&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline" style={{ color: "#DD0000" }}>+44 7449 708976</a></p>
+              <p><strong>IPTVSchweizer</strong></p>
+              <p>E-Mail: <a href="mailto:info@iptvschweizer.com" className="font-bold hover:underline" style={{ color: "#D52B1E" }}>info@iptvschweizer.com</a></p>
+              <p>Telefon: <a href="tel:+447449708976" className="font-bold hover:underline" style={{ color: "#D52B1E" }}>+44 7449 708976</a></p>
+              <p>WhatsApp: <a href="https://api.whatsapp.com/send/?phone=447449708976&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline" style={{ color: "#D52B1E" }}>+44 7449 708976</a></p>
             </div>
           </section>
         </div>

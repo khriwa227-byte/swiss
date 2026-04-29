@@ -29,10 +29,10 @@ export const DesignAssistant: React.FC = () => {
         model: 'gemini-3-flash-preview',
         contents: userMessage,
         config: {
-          systemInstruction: `Du bist der Kundenservice-Mitarbeiter von IPTVDeutschland.
+          systemInstruction: `Du bist der Kundenservice-Mitarbeiter von IPTVSchweizer.
           Antworte professionell, hilfsbereit und enthusiastisch über unsere IPTV-Dienste.
           Kerninformationen:
-          - Pakete: Starter (€34,99), Popular (€44,99), Prime (€69,99).
+          - Pakete: Starter (CHF 34.99), Popular (CHF 44.99), Prime (CHF 69.99).
           - Zugang: Innerhalb von 5 Minuten nach Zahlung per WhatsApp.
           - Inklusive: 65.000+ Sender, 175.000+ Filme & Serien, 4K Qualität.
           - Unterstützung: WhatsApp, Smart TVs, Fire Stick, usw.
@@ -67,8 +67,8 @@ export const DesignAssistant: React.FC = () => {
                 <div className="w-4 h-4 bg-black rotate-45"></div>
               </div>
               <div>
-                <div className="font-bold text-sm">Chat mit IPTVDeutschland</div>
-                <div className="text-[10px] uppercase tracking-widest opacity-60">Team IPTVDeutschland</div>
+                <div className="font-bold text-sm">Chat mit IPTVSchweizer</div>
+                <div className="text-[10px] uppercase tracking-widest opacity-60">Team IPTVSchweizer</div>
               </div>
             </div>
             <button onClick={() => setIsOpen(false)} className="opacity-60 hover:opacity-100">
@@ -80,7 +80,7 @@ export const DesignAssistant: React.FC = () => {
             {messages.length === 0 && (
               <div className="text-center py-10 text-gray-400 space-y-4">
                 <div className="text-4xl">👋</div>
-                <p className="text-sm font-medium">Hallo! Ich helfe dir gerne bei allen Fragen zu IPTVDeutschland.</p>
+                <p className="text-sm font-medium">Hallo! Ich helfe dir gerne bei allen Fragen zu IPTVSchweizer.</p>
               </div>
             )}
             {messages.map((m, i) => (
@@ -127,7 +127,7 @@ export const DesignAssistant: React.FC = () => {
           className="bg-black text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all group relative"
         >
           <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
-          <span className="absolute -top-1 -right-1 w-4 h-4 border-2 border-white rounded-full" style={{ backgroundColor: '#DD0000' }}></span>
+          <span className="absolute -top-1 -right-1 w-4 h-4 border-2 border-white rounded-full" style={{ backgroundColor: '#D52B1E' }}></span>
         </button>
       )}
     </div>

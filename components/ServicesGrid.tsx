@@ -31,14 +31,14 @@ const ChannelLogo: React.FC<{ name: string; logo: string }> = ({ name, logo }) =
 );
 
 const SPORTS = [
-  { name: 'Fußball', subtitle: 'Bundesliga, Champions League', icon: '⚽', image: '/assets/sports/voetbal.jpg' },
-  { name: 'Hockey', subtitle: 'Bundesliga', icon: '🏑', image: '/assets/sports/hockey.jpg' },
+  { name: 'Fußball', subtitle: 'Super League, Champions League', icon: '⚽', image: '/assets/sports/voetbal.jpg' },
+  { name: 'Hockey', subtitle: 'NLA, World Cup', icon: '🏑', image: '/assets/sports/hockey.jpg' },
   { name: 'Eislaufen', subtitle: 'World Cup, DM', icon: '⛸️', image: '/assets/sports/schaatsen.jpg' },
   { name: 'Radsport', subtitle: 'Tour, Giro, Vuelta', icon: '🚴', image: '/assets/sports/wielrennen.jpg' },
   { name: 'Tennis', subtitle: 'Grand Slams', icon: '🎾', image: '/assets/sports/tennis.jpg' },
   { name: 'Padel', subtitle: 'World Padel Tour', icon: '🏸', image: '/assets/sports/padel.jpg' },
   { name: 'Formel 1', subtitle: 'Alle Grand Prix', icon: '🏎️', image: '/assets/sports/formule1.jpg' },
-  { name: 'Volleyball', subtitle: 'Bundesliga, EM', icon: '🏐', image: '/assets/sports/volleybal.jpg' },
+  { name: 'Volleyball', subtitle: 'NLA, EM', icon: '🏐', image: '/assets/sports/volleybal.jpg' },
   { name: 'Golf', subtitle: 'PGA, European Tour', icon: '⛳', image: '/assets/sports/golf.jpg' },
   { name: 'Schwimmen', subtitle: 'WM, Olympisch', icon: '🏊', image: '/assets/sports/zwemmen.jpg' },
 ];
@@ -64,7 +64,7 @@ export const FilmsAndShows: React.FC = () => {
         {/* Channel Marquee */}
         <div className="space-y-6 mb-20">
            <div className="px-2 text-center lg:text-left">
-              <div className="text-xs font-bold uppercase tracking-widest text-[#DD0000] mb-2">Live TV</div>
+              <div className="text-xs font-bold uppercase tracking-widest text-[#D52B1E] mb-2">Live TV</div>
               <h3 className="text-2xl lg:text-3xl font-black tracking-tighter" style={{ color: '#111111' }}>Alle deine Lieblingssender</h3>
            </div>
            <div className="marquee-container -mx-6 overflow-hidden py-6" style={{ backgroundColor: '#111111' }}>
@@ -84,7 +84,7 @@ export const FilmsAndShows: React.FC = () => {
         {/* Sports Marquee Section */}
         <div className="space-y-8 mb-20">
           <div className="text-center px-2">
-            <div className="text-xs font-bold uppercase tracking-widest text-[#DD0000] mb-2">Von Bundesliga bis Formel 1</div>
+            <div className="text-xs font-bold uppercase tracking-widest text-[#D52B1E] mb-2">Von Super League bis Formel 1</div>
             <h3 className="text-2xl lg:text-3xl font-black tracking-tighter" style={{ color: '#111111' }}>Alle Sportarten Live in 4K</h3>
           </div>
 
@@ -106,8 +106,8 @@ export const FilmsAndShows: React.FC = () => {
         <div className="space-y-8 mb-20">
           <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end px-2 text-center lg:text-left">
             <div>
-              <div className="text-xs font-bold uppercase tracking-widest text-[#DD0000] mb-2">Jetzt Trending</div>
-              <h3 className="text-2xl lg:text-3xl font-black tracking-tighter" style={{ color: '#111111' }}>Top Filme in Deutschland</h3>
+              <div className="text-xs font-bold uppercase tracking-widest text-[#D52B1E] mb-2">Jetzt Trending</div>
+              <h3 className="text-2xl lg:text-3xl font-black tracking-tighter" style={{ color: '#111111' }}>Top Filme in der Schweiz</h3>
             </div>
             <div className="hidden md:block text-sm font-bold text-white/50 uppercase tracking-widest mt-4 lg:mt-0">
               Sofort verfügbar in 4K
@@ -132,7 +132,7 @@ export const FilmsAndShows: React.FC = () => {
         <div className="space-y-8">
           <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end px-2 text-center lg:text-left">
             <div>
-              <div className="text-xs font-bold uppercase tracking-widest text-[#DD0000] mb-2">International Trending</div>
+              <div className="text-xs font-bold uppercase tracking-widest text-[#D52B1E] mb-2">International Trending</div>
               <h3 className="text-2xl lg:text-3xl font-black tracking-tighter" style={{ color: '#111111' }}>Top Internationale Serien</h3>
             </div>
             <div className="hidden md:block text-sm font-bold text-white/50 uppercase tracking-widest mt-4 lg:mt-0">

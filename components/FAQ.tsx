@@ -34,7 +34,7 @@ export const FAQ: React.FC = () => {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20">
         <div className="text-center lg:text-left">
           <h2 className="text-5xl lg:text-6xl font-black tracking-tighter lg:sticky top-40 leading-tight" style={{ color: '#111111' }}>
-            Häufig gestellte <br/><span className="text-italics underline decoration-4 underline-offset-8" style={{ textDecorationColor: '#DD0000' }}>Fragen</span>
+            Häufig gestellte <br/><span className="text-italics underline decoration-4 underline-offset-8" style={{ textDecorationColor: '#D52B1E' }}>Fragen</span>
           </h2>
         </div>
         <div className="space-y-2">

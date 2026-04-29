@@ -2412,7 +2412,7 @@ export const Channels: React.FC = () => {
       {/* ── Hero banner ── */}
       <div className="relative overflow-hidden pt-36 pb-12" style={{ background: 'linear-gradient(135deg, #111111 0%, #1C1C1C 60%, #111111 100%)' }}>
         <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{ backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(255,255,255,0.5) 3px, rgba(255,255,255,0.5) 4px)' }} />
-        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full opacity-10 blur-3xl" style={{ background: '#DD0000' }} />
+        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full opacity-10 blur-3xl" style={{ background: '#D52B1E' }} />
         <div className="absolute -bottom-10 -left-20 w-60 h-60 rounded-full opacity-10 blur-3xl" style={{ background: '#1C1C1C' }} />
 
         <div className="relative max-w-6xl mx-auto px-6 lg:px-20">
@@ -2574,7 +2574,7 @@ export const Channels: React.FC = () => {
                         className="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors"
                         style={{ background: 'rgba(28,28,28,0.04)', border: '1px solid rgba(28,28,28,0.07)' }}
                       >
-                        <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: '#DD0000' }} />
+                        <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: '#D52B1E' }} />
                         <span className="text-xs font-semibold truncate" style={{ color: '#111111' }}>{channel}</span>
                       </div>
                     ))}
@@ -2592,7 +2592,7 @@ export const Channels: React.FC = () => {
           className="rounded-3xl p-8 lg:p-10 flex flex-col sm:flex-row items-center justify-between gap-6 overflow-hidden relative"
           style={{ background: 'linear-gradient(135deg, #111111 0%, #1C1C1C 100%)' }}
         >
-          <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full opacity-10 blur-2xl" style={{ background: '#DD0000' }} />
+          <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full opacity-10 blur-2xl" style={{ background: '#D52B1E' }} />
           <div className="text-center sm:text-left">
             <p className="text-white font-extrabold text-xl tracking-tight">Bereit loszulegen?</p>
             <p className="text-sm mt-1" style={{ color: 'rgba(255,255,255,0.5)' }}>
@@ -2602,7 +2602,7 @@ export const Channels: React.FC = () => {
           <a
             href="/prijzen"
             className="shrink-0 inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-black text-white text-sm hover:scale-105 transition-transform shadow-[0_8px_32px_rgba(221,0,0,0.4)]"
-            style={{ background: 'linear-gradient(135deg, #DD0000, #cc0000)' }}
+            style={{ background: 'linear-gradient(135deg, #D52B1E, #cc0000)' }}
           >
             Abonnements ansehen
             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>

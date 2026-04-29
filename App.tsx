@@ -15,8 +15,6 @@ import { Privacybeleid } from './components/Privacybeleid';
 import { Channels } from './components/Channels';
 import { ResellerPacks } from './components/ResellerPacks';
 import { SeoContent } from './components/SeoContent';
-import { SportEvents } from './components/SportEvents';
-import { SportCalendar } from './components/SportCalendar';
 import { Kastje } from './components/Kastje';
 import { StreamingServices } from './components/StreamingServices';
 
@@ -29,7 +27,7 @@ const AnnouncementBanner: React.FC<{ onDismiss: () => void }> = ({ onDismiss }) 
   >
     <span className="banner-text hidden sm:inline text-xs font-extrabold uppercase tracking-widest text-white">⚡ Zeitlich Begrenztes Angebot</span>
     <span className="banner-badge px-3 py-1 rounded-full text-xs sm:text-sm font-black uppercase tracking-wide"
-      style={{ background: '#DD0000', color: '#ffffff' }}>
+      style={{ background: '#D52B1E', color: '#ffffff' }}>
       🎁 3 MONATE GRATIS
     </span>
     <span className="text-xs sm:text-sm text-white font-medium">bei jedem Abonnement</span>
@@ -84,7 +82,7 @@ const Layout: React.FC<{ children: React.ReactNode; bannerVisible: boolean; onDi
       <div className="grid-line grid-line-left" />
       <div className="grid-line grid-line-right" />
       {bannerVisible && <AnnouncementBanner onDismiss={onDismiss} />}
-      <Header isScrolled={scrollY > 50} bannerOffset={bannerVisible ? BANNER_HEIGHT : 0} lightText={location.pathname === '/sportklaender' || location.pathname === '/kanalen'} />
+      <Header isScrolled={scrollY > 50} bannerOffset={bannerVisible ? BANNER_HEIGHT : 0} lightText={location.pathname === '/kanalen'} />
       {children}
       <Footer />
     </div>
@@ -96,7 +94,6 @@ const Layout: React.FC<{ children: React.ReactNode; bannerVisible: boolean; onDi
 const HomePage: React.FC = () => (
   <main>
     <section className="reveal"><Hero /></section>
-    <section className="reveal"><SportEvents /></section>
     <section className="reveal"><FilmsAndShows /></section>
     <section className="reveal"><StreamingServices /></section>
     <section className="reveal"><Pricing /></section>
@@ -116,7 +113,6 @@ const ResellerPage: React.FC = () => <main><ResellerPacks /></main>;
 const FAQPage: React.FC = () => <main className="pt-28"><FAQ /></main>;
 const AlgemeneVoorwaardenPage: React.FC = () => <main><AlgemeneVoorwaarden /></main>;
 const PrivacybeleidPage: React.FC = () => <main><Privacybeleid /></main>;
-const SportklaenderPage: React.FC = () => <main><SportCalendar /></main>;
 const KastjePage: React.FC = () => <main><Kastje /></main>;
 
 /* ─── app ────────────────────────────────────────────────────────────────────── */
@@ -135,7 +131,6 @@ const AppInner: React.FC = () => {
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/algemene-voorwaarden" element={<AlgemeneVoorwaardenPage />} />
         <Route path="/privacybeleid" element={<PrivacybeleidPage />} />
-        <Route path="/sportklaender" element={<SportklaenderPage />} />
         <Route path="/kastje" element={<KastjePage />} />
       </Routes>
     </Layout>

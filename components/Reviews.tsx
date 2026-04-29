@@ -12,14 +12,14 @@ const REVIEWS = [
   {
     name: 'Anna B.',
     initials: 'AB',
-    color: 'from-[#DD0000] to-rose-700',
+    color: 'from-[#D52B1E] to-rose-700',
     text: 'Seit 3 Monaten keine einzige Störung. Besser als jeder Kabelanbieter',
     time: '14:02',
   },
   {
     name: 'Felix K.',
     initials: 'FK',
-    color: 'from-[#1C1C1C] to-[#DD0000]',
+    color: 'from-[#1C1C1C] to-[#D52B1E]',
     text: '4K Qualität ist wirklich next level. Champions League ist fantastisch',
     time: '18:47',
   },
@@ -132,7 +132,7 @@ export const Reviews: React.FC = () => {
             23000+ zufriedene Kunden
           </div>
           <h2 className="text-4xl lg:text-5xl font-black tracking-tighter" style={{ color: '#111111' }}>
-            #1 IPTV in Deutschland laut unseren Kunden
+            #1 IPTV in der Schweiz laut unseren Kunden
           </h2>
         </div>
 

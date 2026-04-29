@@ -75,7 +75,7 @@ export const Benefits: React.FC = () => {
             Es ist <span className="text-italics underline decoration-2 underline-offset-[12px]" style={{ textDecorationColor: 'rgba(221,0,0,0.4)' }}>"kein Zurück mehr"</span> besser
           </h2>
           <p className="text-xl font-medium" style={{ color: 'rgba(17,17,17,0.7)' }}>
-            IPTVDeutschland ersetzt teure TV-Pakete und mehrere Streamingdienste für einen festen Preis.
+            IPTVSchweizer ersetzt teure TV-Pakete und mehrere Streamingdienste für einen festen Preis.
           </p>
         </div>
 

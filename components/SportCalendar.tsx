@@ -249,7 +249,7 @@ const EventCard: React.FC<{ event: CalEvent }> = ({ event }) => {
     >
       {/* live left accent */}
       {isLive && (
-        <div className="absolute left-0 top-3 bottom-3 w-1 rounded-full" style={{ background: '#DD0000' }} />
+        <div className="absolute left-0 top-3 bottom-3 w-1 rounded-full" style={{ background: '#D52B1E' }} />
       )}
 
       {/* time column */}
@@ -257,7 +257,7 @@ const EventCard: React.FC<{ event: CalEvent }> = ({ event }) => {
         {isLive ? (
           <>
             <LiveDot />
-            <span className="text-[10px] font-black uppercase tracking-wider" style={{ color: '#DD0000' }}>
+            <span className="text-[10px] font-black uppercase tracking-wider" style={{ color: '#D52B1E' }}>
               {event.clock ? `${event.clock}'` : 'Live'}
             </span>
           </>
@@ -301,8 +301,8 @@ const EventCard: React.FC<{ event: CalEvent }> = ({ event }) => {
       <div className="shrink-0 w-10 flex flex-col items-center gap-2">
         {(isLive || isFinished) && event.homeScore !== null ? (
           <>
-            <span className="text-base font-black tabular-nums leading-none" style={{ color: isLive ? '#DD0000' : '#111111' }}>{event.homeScore}</span>
-            <span className="text-base font-black tabular-nums leading-none" style={{ color: isLive ? '#DD0000' : '#111111' }}>{event.awayScore}</span>
+            <span className="text-base font-black tabular-nums leading-none" style={{ color: isLive ? '#D52B1E' : '#111111' }}>{event.homeScore}</span>
+            <span className="text-base font-black tabular-nums leading-none" style={{ color: isLive ? '#D52B1E' : '#111111' }}>{event.awayScore}</span>
           </>
         ) : (
           <span className="text-xs font-bold" style={{ color: 'rgba(17,17,17,0.2)' }}>vs</span>
@@ -352,7 +352,7 @@ export const SportCalendar: React.FC = () => {
         {/* scanlines */}
         <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{ backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(255,255,255,0.5) 3px, rgba(255,255,255,0.5) 4px)' }} />
         {/* glow orbs */}
-        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full opacity-10 blur-3xl" style={{ background: '#DD0000' }} />
+        <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full opacity-10 blur-3xl" style={{ background: '#D52B1E' }} />
         <div className="absolute -bottom-10 -left-20 w-60 h-60 rounded-full opacity-10 blur-3xl" style={{ background: '#1C1C1C' }} />
 
         <div className="relative max-w-5xl mx-auto px-6 lg:px-20">
@@ -360,7 +360,7 @@ export const SportCalendar: React.FC = () => {
             <div>
               {/* live badge */}
               {liveCount > 0 && (
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-4" style={{ background: '#DD0000' }}>
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-4" style={{ background: '#D52B1E' }}>
                   <span className="relative flex h-2 w-2">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75" />
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-white" />
@@ -466,7 +466,7 @@ export const SportCalendar: React.FC = () => {
             className="mt-6 rounded-3xl p-8 lg:p-10 flex flex-col sm:flex-row items-center justify-between gap-6 overflow-hidden relative"
             style={{ background: 'linear-gradient(135deg, #111111 0%, #1C1C1C 100%)' }}
           >
-            <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full opacity-10 blur-2xl" style={{ background: '#DD0000' }} />
+            <div className="absolute -right-10 -top-10 w-40 h-40 rounded-full opacity-10 blur-2xl" style={{ background: '#D52B1E' }} />
             <div className="text-center sm:text-left">
               <p className="text-white font-extrabold text-xl tracking-tight">Kein Spiel mehr verpassen</p>
               <p className="text-sm mt-1" style={{ color: 'rgba(255,255,255,0.5)' }}>
@@ -476,7 +476,7 @@ export const SportCalendar: React.FC = () => {
             <a
               href="/#pricing"
               className="shrink-0 inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-black text-white text-sm hover:scale-105 transition-transform shadow-[0_8px_32px_rgba(221,0,0,0.4)]"
-              style={{ background: 'linear-gradient(135deg, #DD0000, #cc0000)' }}
+              style={{ background: 'linear-gradient(135deg, #D52B1E, #cc0000)' }}
             >
               Abonnements ansehen
               <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>

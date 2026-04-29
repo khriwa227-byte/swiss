@@ -98,7 +98,7 @@ const TVMockup: React.FC<{ match: FeaturedMatch }> = ({ match }) => (
     {/* Glow */}
     <div
       className="absolute inset-0 blur-[80px] opacity-30 rounded-3xl scale-95 pointer-events-none"
-      style={{ background: 'linear-gradient(135deg, #1C1C1C 40%, #DD0000)' }}
+      style={{ background: 'linear-gradient(135deg, #1C1C1C 40%, #D52B1E)' }}
     />
 
     {/* Monitor frame */}
@@ -108,7 +108,7 @@ const TVMockup: React.FC<{ match: FeaturedMatch }> = ({ match }) => (
     >
       {/* Bezel top bar */}
       <div className="flex items-center gap-1.5 px-5 pt-4 pb-3" style={{ background: '#06091a' }}>
-        <div className="w-3 h-3 rounded-full" style={{ background: '#DD0000' }} />
+        <div className="w-3 h-3 rounded-full" style={{ background: '#D52B1E' }} />
         <div className="w-3 h-3 rounded-full" style={{ background: '#FF9500' }} />
         <div className="w-3 h-3 rounded-full" style={{ background: '#1C1C1C' }} />
         <div className="ml-auto flex items-center gap-2">
@@ -157,7 +157,7 @@ const TVMockup: React.FC<{ match: FeaturedMatch }> = ({ match }) => (
           {/* Status badge */}
           <div
             className="absolute top-4 right-4 flex items-center gap-1.5 px-3 py-1.5 rounded-lg"
-            style={{ background: match.status === 'live' ? '#DD0000' : 'rgba(255,255,255,0.12)' }}
+            style={{ background: match.status === 'live' ? '#D52B1E' : 'rgba(255,255,255,0.12)' }}
           >
             {match.status === 'live' && <div className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />}
             <span className="text-[11px] font-black text-white uppercase tracking-wider">
@@ -220,7 +220,7 @@ const TVMockup: React.FC<{ match: FeaturedMatch }> = ({ match }) => (
     >
       <div
         className="w-10 h-10 rounded-xl flex items-center justify-center text-2xl"
-        style={{ background: 'linear-gradient(135deg, #DD0000, #aa0000)' }}
+        style={{ background: 'linear-gradient(135deg, #D52B1E, #aa0000)' }}
       >⚡</div>
       <div>
         <div className="text-base font-black leading-none" style={{ color: '#111111' }}>4K Ultra HD</div>
@@ -235,7 +235,7 @@ const TVMockup: React.FC<{ match: FeaturedMatch }> = ({ match }) => (
     >
       <div
         className="w-10 h-10 rounded-xl flex items-center justify-center"
-        style={{ background: 'linear-gradient(135deg, #1C1C1C, #DD0000)' }}
+        style={{ background: 'linear-gradient(135deg, #1C1C1C, #D52B1E)' }}
       >
         <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
           <circle cx="12" cy="12" r="10"/>
@@ -268,7 +268,7 @@ export const Hero: React.FC = () => {
       {/* Desktop background depth */}
       <div className="absolute inset-0 pointer-events-none hidden lg:block">
         <div className="absolute top-0 right-0 w-[55%] h-full opacity-[0.04]" style={{ background: 'radial-gradient(ellipse at 80% 40%, #1C1C1C 0%, transparent 70%)' }} />
-        <div className="absolute bottom-0 left-0 w-[40%] h-[60%] opacity-[0.03]" style={{ background: 'radial-gradient(ellipse at 20% 80%, #DD0000 0%, transparent 70%)' }} />
+        <div className="absolute bottom-0 left-0 w-[40%] h-[60%] opacity-[0.03]" style={{ background: 'radial-gradient(ellipse at 20% 80%, #D52B1E 0%, transparent 70%)' }} />
         {/* subtle dot grid */}
         <div className="absolute inset-0 opacity-[0.018]" style={{ backgroundImage: 'radial-gradient(circle, #1C1C1C 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
       </div>
@@ -285,7 +285,7 @@ export const Hero: React.FC = () => {
               className="inline-flex items-center gap-3 pl-2.5 pr-5 py-2 rounded-full backdrop-blur-md border hover:brightness-110 hover:scale-[1.03] transition-all duration-300 shadow-[0_4px_16px_rgba(28,28,28,0.2)]"
               style={{ background: 'linear-gradient(135deg, #1C1C1C, #2a2a2a, #1C1C1C)', borderColor: 'rgba(255,255,255,0.2)' }}
             >
-              <span className="w-9 h-9 rounded-lg flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #DD0000, #cc0000)' }}>
+              <span className="w-9 h-9 rounded-lg flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #D52B1E, #cc0000)' }}>
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg>
               </span>
               <span className="text-sm sm:text-base font-bold text-white">Jetzt bestellen und erhalten</span>
@@ -299,9 +299,9 @@ export const Hero: React.FC = () => {
             className="sm:hidden font-extrabold leading-[1.08] tracking-tighter text-center w-full whitespace-nowrap"
             style={{ color: '#111111', fontSize: 'min(11vw, 2.8rem)' }}
           >
-            IPTVDeutschland<br />
+            IPTVSchweizer<br />
             Premium IPTV,<br />
-            <span className="text-italics">für Deutschland</span>
+            <span className="text-italics">für die Schweiz</span>
           </h1>
 
           {/* Desktop heading */}
@@ -309,9 +309,9 @@ export const Hero: React.FC = () => {
             className="hidden sm:block font-extrabold leading-[1.03] tracking-tighter sm:text-left w-full"
             style={{ color: '#111111', fontSize: 'clamp(3.5rem, 6vw, 6.5rem)' }}
           >
-            IPTVDeutschland<br />
+            IPTVSchweizer<br />
             Premium IPTV,<br />
-            <span className="text-italics">für Deutschland</span>
+            <span className="text-italics">für die Schweiz</span>
           </h1>
 
           {/* Sub-copy */}
@@ -378,12 +378,12 @@ export const Hero: React.FC = () => {
       <div className="mt-20 lg:mt-28 py-10 lg:py-12" style={{ backgroundColor: '#111111' }}>
         <div className="marquee-container">
           <div className="marquee-content">
-            {['Bundesliga', 'Champions League', 'Formel 1', 'ARD', 'ZDF', 'RTL', 'Netflix content'].map((brand, i) => (
+            {['Super League', 'Champions League', 'Formel 1', 'SRF 1', 'SRF 2', 'RTS 1', 'RSI La 1', '3+', 'DAZN'].map((brand, i) => (
               <span key={i} className="text-2xl lg:text-3xl font-black uppercase tracking-widest px-8 cursor-default" style={{ color: 'rgba(255,255,255,0.85)' }}>{brand}</span>
             ))}
           </div>
           <div className="marquee-content">
-            {['Bundesliga', 'Champions League', 'Formel 1', 'ARD', 'ZDF', 'RTL', 'Netflix content'].map((brand, i) => (
+            {['Super League', 'Champions League', 'Formel 1', 'SRF 1', 'SRF 2', 'RTS 1', 'RSI La 1', '3+', 'DAZN'].map((brand, i) => (
               <span key={i} className="text-2xl lg:text-3xl font-black uppercase tracking-widest px-8 cursor-default" style={{ color: 'rgba(255,255,255,0.85)' }}>{brand}</span>
             ))}
           </div>

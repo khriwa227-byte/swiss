@@ -139,7 +139,7 @@ export const Pricing: React.FC = () => {
     const pricing = getDevicePrice(tier);
     const deviceText = selectedDevices === 1 ? '1 Gerät' : `${selectedDevices} Geräte`;
     const periodText = currentPeriod.months === 12 ? '12+3 Monate (15 Monate insgesamt!)' : `${currentPeriod.months} Monate`;
-    const message = `Hallo, ich möchte gerne das ${tier.tier}-Paket von IPTVDeutschland bestellen für ${periodText} für ${deviceText} (${pricing.price}).`;
+    const message = `Hallo, ich möchte gerne das ${tier.tier}-Paket von IPTVSchweizer bestellen für ${periodText} für ${deviceText} (${pricing.price}).`;
     return `https://api.whatsapp.com/send/?phone=447449708976&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
   };
 
@@ -229,7 +229,7 @@ export const Pricing: React.FC = () => {
                   }`}
                   style={
                     isActive && is12
-                      ? { background: 'linear-gradient(135deg, #DD0000, #cc0000)', boxShadow: '0 8px 24px rgba(221,0,0,0.35)', outline: '2px solid rgba(221,0,0,0.4)' }
+                      ? { background: 'linear-gradient(135deg, #D52B1E, #cc0000)', boxShadow: '0 8px 24px rgba(221,0,0,0.35)', outline: '2px solid rgba(221,0,0,0.4)' }
                       : isActive
                       ? { backgroundColor: '#1C1C1C', boxShadow: '0 4px 16px rgba(28,28,28,0.3)' }
                       : is12
@@ -242,7 +242,7 @@ export const Pricing: React.FC = () => {
                     <>
                       <span className={`absolute -top-2.5 -right-2 text-[10px] font-black px-2.5 py-1 rounded-full shadow-lg ${
                         isActive ? 'bg-yellow-400 text-black animate-pulse' : 'text-white'
-                      }`} style={!isActive ? { backgroundColor: '#DD0000' } : {}}>
+                      }`} style={!isActive ? { backgroundColor: '#D52B1E' } : {}}>
                         -50%
                       </span>
                       <span className="block text-[10px] mt-1 font-black uppercase tracking-wider opacity-80">
@@ -277,7 +277,7 @@ export const Pricing: React.FC = () => {
         </div>
 
         {/* Pricing Cards - Basis & Premium */}
-        <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid gap-8 max-w-2xl mx-auto">
           {[...currentPeriod.tiers].reverse().map((tier, idx) => {
             const currentPricing = getDevicePrice(tier);
             const isPremium = tier.tier === "Premium";
@@ -301,7 +301,7 @@ export const Pricing: React.FC = () => {
                 )}
                 {isPremium ? (
                   <div className={`absolute ${is12 ? 'top-14' : 'top-6'} left-8 px-5 py-1.5 rounded-full text-sm font-black uppercase tracking-widest flex items-center gap-2 shadow-lg text-white`}
-                    style={{ background: 'linear-gradient(135deg, #DD0000, #cc0000)', boxShadow: '0 4px 16px rgba(221,0,0,0.35)' }}>
+                    style={{ background: 'linear-gradient(135deg, #D52B1E, #cc0000)', boxShadow: '0 4px 16px rgba(221,0,0,0.35)' }}>
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
                     Premium VIP
                     <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></div>
@@ -324,7 +324,7 @@ export const Pricing: React.FC = () => {
                   <div className="mb-8">
                     <div className="flex items-center gap-3 mb-2">
                       <p className={`text-xs font-black uppercase tracking-widest ${
-                        isPremium ? 'text-yellow-400' : 'text-[#DD0000]'
+                        isPremium ? 'text-yellow-400' : 'text-[#D52B1E]'
                       }`}>
                         {isPremium ? 'Premium VIP' : tier.tier}
                       </p>
@@ -341,12 +341,12 @@ export const Pricing: React.FC = () => {
                       }`}>{currentPricing.price}</span>
                     </div>
                     <div className={`text-lg mt-2 font-bold ${
-                      isPremium ? 'text-yellow-300/60' : 'text-[#DD0000]/60'
+                      isPremium ? 'text-yellow-300/60' : 'text-[#D52B1E]/60'
                     }`}>
                       {currentPricing.monthlyPrice} / Monat
                     </div>
                     <div className={`text-sm mt-2 font-medium flex items-center gap-2 ${
-                      isPremium ? 'text-white/40' : 'text-[#DD0000]/60'
+                      isPremium ? 'text-white/40' : 'text-[#D52B1E]/60'
                     }`}>
                       <DeviceIcon />
                       {selectedDevices} {selectedDevices === 1 ? 'Gerät' : 'Geräte'} inbegriffen
@@ -355,7 +355,7 @@ export const Pricing: React.FC = () => {
 
                   <div className="space-y-4 mb-10 flex-1">
                     <div className={`text-xs font-black uppercase tracking-widest mb-6 ${
-                      isPremium ? 'text-yellow-300/50' : 'text-[#DD0000]/60'
+                      isPremium ? 'text-yellow-300/50' : 'text-[#D52B1E]/60'
                     }`}>Was ist inbegriffen</div>
                     {tier.features.map((feature, i) => (
                       <div key={i} className={`flex items-center gap-3 text-base font-bold ${

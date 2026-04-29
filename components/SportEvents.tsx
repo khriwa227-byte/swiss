@@ -406,7 +406,7 @@ const FeaturedCard: React.FC<{ event: SportEvent }> = ({ event }) => {
           )}
           <div className="flex items-center gap-3 flex-wrap justify-center">
             {isLive ? (
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full" style={{ background: '#DD0000' }}>
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full" style={{ background: '#D52B1E' }}>
                 <LiveDot /><span className="text-xs font-black uppercase tracking-wider text-white">Live</span>
               </div>
             ) : (
@@ -472,7 +472,7 @@ const FeaturedCard: React.FC<{ event: SportEvent }> = ({ event }) => {
           <a
             href="/prijzen"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-white font-black text-sm hover:scale-105 transition-transform shadow-[0_8px_32px_rgba(221,0,0,0.5)]"
-            style={{ background: 'linear-gradient(135deg,#DD0000,#cc0000)' }}
+            style={{ background: 'linear-gradient(135deg,#D52B1E,#cc0000)' }}
           >
             {isLive ? 'Jetzt einschalten' : 'Abonnement abschließen'}
             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
@@ -525,7 +525,7 @@ export const SportEvents: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <LiveDot />
-              <span className="text-xs font-black uppercase tracking-widest" style={{ color: '#DD0000' }}>Sport & Live Events</span>
+              <span className="text-xs font-black uppercase tracking-widest" style={{ color: '#D52B1E' }}>Sport & Live Events</span>
             </div>
             <h2 className="text-3xl lg:text-4xl font-extrabold tracking-tighter leading-tight" style={{ color: '#111111' }}>
               Kijk Nu &amp; Binnenkort

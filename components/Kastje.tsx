@@ -85,7 +85,7 @@ export const Kastje: React.FC = () => {
         {/* Background depth — matches site hero */}
         <div className="absolute inset-0 pointer-events-none hidden lg:block">
           <div className="absolute top-0 right-0 w-[55%] h-full opacity-[0.04]" style={{ background: 'radial-gradient(ellipse at 80% 40%, #1C1C1C 0%, transparent 70%)' }} />
-          <div className="absolute bottom-0 left-0 w-[40%] h-[60%] opacity-[0.03]" style={{ background: 'radial-gradient(ellipse at 20% 80%, #DD0000 0%, transparent 70%)' }} />
+          <div className="absolute bottom-0 left-0 w-[40%] h-[60%] opacity-[0.03]" style={{ background: 'radial-gradient(ellipse at 20% 80%, #D52B1E 0%, transparent 70%)' }} />
           <div className="absolute inset-0 opacity-[0.018]" style={{ backgroundImage: 'radial-gradient(circle, #1C1C1C 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
         </div>
 
@@ -98,7 +98,7 @@ export const Kastje: React.FC = () => {
               className="inline-flex items-center gap-3 pl-2.5 pr-5 py-2 rounded-full backdrop-blur-md border hover:brightness-110 hover:scale-[1.03] transition-all duration-300 shadow-[0_4px_16px_rgba(28,28,28,0.2)]"
               style={{ background: 'linear-gradient(135deg, #1C1C1C, #2a2a2a, #1C1C1C)', borderColor: 'rgba(255,255,255,0.2)' }}
             >
-              <span className="w-9 h-9 rounded-lg flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #DD0000, #cc0000)' }}>
+              <span className="w-9 h-9 rounded-lg flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #D52B1E, #cc0000)' }}>
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg>
               </span>
               <span className="text-sm sm:text-base font-bold text-white">Wähle 12 Monate und erhalte</span>

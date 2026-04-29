@@ -11,8 +11,8 @@ export const FAQS: FAQItem[] = [
     answer: "Abonniere ein Paket und wir senden dir sofort deine Zugangsdaten per WhatsApp. Dieser Vorgang dauert etwa 5 Minuten ab dem Zeitpunkt der Zahlung. Du erhältst auch eine Einrichtungsanleitung mitgeschickt."
   },
   {
-    question: "Ist IPTV in Deutschland legal?",
-    answer: "Ja, die Nutzung von IPTV-Diensten ist in Deutschland legal. IPTVDeutschland ist ein seriöser IPTV-Anbieter mit Premium-Infrastruktur und 24/7 Support."
+    question: "Ist IPTV in der Schweiz legal?",
+    answer: "Ja, die Nutzung von IPTV-Diensten ist in der Schweiz legal. IPTVSchweizer ist ein seriöser IPTV-Anbieter mit Premium-Infrastruktur und 24/7 Support."
   },
   {
     question: "Gibt es Einschränkungen bei Anfragen?",
@@ -28,7 +28,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: "Welche Geräte werden unterstützt?",
-    answer: "IPTVDeutschland funktioniert auf nahezu allen Geräten: Smart TVs (Samsung, LG, Sony), Fire Stick, Apple TV, Android/iOS Telefone und Tablets, PC/Mac, Android TV Boxen und mehr."
+    answer: "IPTVSchweizer funktioniert auf nahezu allen Geräten: Smart TVs (Samsung, LG, Sony), Fire Stick, Apple TV, Android/iOS Telefone und Tablets, PC/Mac, Android TV Boxen und mehr."
   },
   {
     question: "Gibt es Buffering beim Stream?",
@@ -36,7 +36,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: "Bekomme ich deutsche Sender?",
-    answer: "Ja! Alle deutschen Sender sind inklusive: ARD, ZDF, RTL, ProSieben, Sat.1, VOX, kabel eins und viele mehr. Plus österreichische, schweizer und internationale Sender."
+    answer: "Ja! Alle Schweizer Sender sind inklusive: SRF 1, SRF 2, RTS 1, RSI La 1, 3+, TV24 und viele mehr. Plus deutsche und internationale Sender."
   }
 ];
 
@@ -47,7 +47,7 @@ export interface DevicePricing {
 }
 
 export interface SubscriptionTier {
-  tier: "Basis" | "Premium";
+  tier: "Premium";
   price: string;
   monthlyPrice: string;
   savings?: string;
@@ -69,44 +69,19 @@ export const PERIOD_PLANS: PeriodPlan[] = [
     description: "3 MONATE ZUGANG",
     tiers: [
       {
-        tier: "Basis",
-        price: "€34,99",
-        monthlyPrice: "€10,00",
-        devicePricing: [
-          { devices: 1, price: "€24,99", monthlyPrice: "€7,66" },
-          { devices: 2, price: "€39,99", monthlyPrice: "€13,33" },
-          { devices: 3, price: "€49,99", monthlyPrice: "€16,66" },
-          { devices: 4, price: "€69,99", monthlyPrice: "€23,33" }
-        ],
-        features: [
-          "SD/HD/FULL HD/UHD Qualität",
-          "+80.000 Sender + Netflix",
-          "ARD, ZDF, RTL, ProSieben, Sat.1, DAZN",
-          "+140.000 Filme & Serien",
-          "Wöchentliche Updates",
-          "24/7 Support",
-          "100% Anonym",
-          "AntiFreeze Technologie",
-          "Alle Geräte",
-          "VPN Inklusive",
-          "Exklusive Inhalte",
-          "Netflix, Amazon, HBO, Apple TV, Hulu"
-        ]
-      },
-      {
         tier: "Premium",
-        price: "€45,99",
-        monthlyPrice: "€15,00",
+        price: "CHF 45.99",
+        monthlyPrice: "CHF 15.00",
         devicePricing: [
-          { devices: 1, price: "€34,99", monthlyPrice: "€11,67" },
-          { devices: 2, price: "€45,99", monthlyPrice: "€15,00" },
-          { devices: 3, price: "€74,99", monthlyPrice: "€21,67" },
-          { devices: 4, price: "€89,99", monthlyPrice: "€26,67" }
+          { devices: 1, price: "CHF 34.99", monthlyPrice: "CHF 11.67" },
+          { devices: 2, price: "CHF 45.99", monthlyPrice: "CHF 15.00" },
+          { devices: 3, price: "CHF 74.99", monthlyPrice: "CHF 21.67" },
+          { devices: 4, price: "CHF 89.99", monthlyPrice: "CHF 26.67" }
         ],
         features: [
           "SD/HD/FULL HD/4K/8K/HDR-VR",
           "+80.000 Sender + Netflix",
-          "ARD, ZDF, RTL, ProSieben, Sky, DAZN",
+          "SRF 1, SRF 2, RTS 1, RSI La 1, 3+, DAZN",
           "+200.000 Filme & Serien",
           "Tägliche Updates",
           "Alle Sport PPV Events",
@@ -127,45 +102,20 @@ export const PERIOD_PLANS: PeriodPlan[] = [
     description: "6 MONATE ZUGANG",
     tiers: [
       {
-        tier: "Basis",
-        price: "€49,99",
-        monthlyPrice: "€6,67",
-        devicePricing: [
-          { devices: 1, price: "€34,99", monthlyPrice: "€5,00" },
-          { devices: 2, price: "€49,99", monthlyPrice: "€6,67" },
-          { devices: 3, price: "€69,99", monthlyPrice: "€10,00" },
-          { devices: 4, price: "€109,99", monthlyPrice: "€18,33" }
-        ],
-        features: [
-          "SD/HD/FULL HD/UHD/4K Qualität",
-          "+80.000 Sender + Netflix",
-          "ARD, ZDF, RTL, ProSieben, Sat.1, DAZN",
-          "+140.000 Filme & Serien",
-          "Wöchentliche Updates",
-          "24/7 Support",
-          "100% Anonym",
-          "AntiFreeze Technologie",
-          "Alle Geräte",
-          "VPN Inklusive",
-          "Exklusive Inhalte",
-          "Netflix, Amazon, HBO, Apple TV, Hulu"
-        ]
-      },
-      {
         tier: "Premium",
-        price: "€79,99",
-        monthlyPrice: "€10,00",
+        price: "CHF 79.99",
+        monthlyPrice: "CHF 10.00",
         savings: "Spare 35%",
         devicePricing: [
-          { devices: 1, price: "€44,99", monthlyPrice: "€7,50" },
-          { devices: 2, price: "€79,99", monthlyPrice: "€10,00" },
-          { devices: 3, price: "€99,99", monthlyPrice: "€15,00" },
-          { devices: 4, price: "€139,99", monthlyPrice: "€19,17" }
+          { devices: 1, price: "CHF 44.99", monthlyPrice: "CHF 7.50" },
+          { devices: 2, price: "CHF 79.99", monthlyPrice: "CHF 10.00" },
+          { devices: 3, price: "CHF 99.99", monthlyPrice: "CHF 15.00" },
+          { devices: 4, price: "CHF 139.99", monthlyPrice: "CHF 19.17" }
         ],
         features: [
           "SD/HD/FULL HD/4K/8K/HDR-VR",
           "+80.000 Sender + Netflix",
-          "ARD, ZDF, RTL, ProSieben, Sky, DAZN",
+          "SRF 1, SRF 2, RTS 1, RSI La 1, 3+, DAZN",
           "+200.000 Filme & Serien",
           "Tägliche Updates",
           "Alle Sport PPV Events",
@@ -186,46 +136,20 @@ export const PERIOD_PLANS: PeriodPlan[] = [
     description: "12+3 MONATE ZUGANG",
     tiers: [
       {
-        tier: "Basis",
-        price: "€69,99",
-        monthlyPrice: "€4,67",
-        savings: "Spare 40%",
-        devicePricing: [
-          { devices: 1, price: "€69,99", monthlyPrice: "€4,67" },
-          { devices: 2, price: "€99,99", monthlyPrice: "€6,67" },
-          { devices: 3, price: "€129,99", monthlyPrice: "€8,67" },
-          { devices: 4, price: "€159,99", monthlyPrice: "€10,67" }
-        ],
-        features: [
-          "SD/HD/FULL HD Qualität",
-          "+50.000 Sender + Netflix",
-          "ARD, ZDF, RTL, ProSieben, ESPN, DAZN",
-          "+140.000 Filme & Serien",
-          "Wöchentliche Updates",
-          "24/7 Support",
-          "100% Anonym",
-          "AntiFreeze Technologie",
-          "Alle Geräte",
-          "VPN Inklusive",
-          "Exklusive Inhalte",
-          "Netflix, Amazon, HBO, Apple TV, Hulu"
-        ]
-      },
-      {
         tier: "Premium",
-        price: "€125,99",
-        monthlyPrice: "€8,33",
+        price: "CHF 125.99",
+        monthlyPrice: "CHF 8.33",
         savings: "Spare 50%",
         devicePricing: [
-          { devices: 1, price: "€78,99", monthlyPrice: "€5,83" },
-          { devices: 2, price: "€125,99", monthlyPrice: "€8,33" },
-          { devices: 3, price: "€179,99", monthlyPrice: "€12,00" },
-          { devices: 4, price: "€199,99", monthlyPrice: "€15,00" }
+          { devices: 1, price: "CHF 78.99", monthlyPrice: "CHF 5.83" },
+          { devices: 2, price: "CHF 125.99", monthlyPrice: "CHF 8.33" },
+          { devices: 3, price: "CHF 179.99", monthlyPrice: "CHF 12.00" },
+          { devices: 4, price: "CHF 199.99", monthlyPrice: "CHF 15.00" }
         ],
         features: [
           "SD/HD/FULL HD/4K/8K/HDR-VR",
           "+80.000 Sender + Netflix",
-          "ARD, ZDF, RTL, ProSieben, Sky, DAZN",
+          "SRF 1, SRF 2, RTS 1, RSI La 1, 3+, DAZN",
           "+200.000 Filme & Serien",
           "Tägliche Updates",
           "Alle Sport PPV Events",
@@ -244,7 +168,7 @@ export const PERIOD_PLANS: PeriodPlan[] = [
 
 export const SERVICES = [
   "Deutsche Sender", "Österreichische Sender", "Live Sport", "Filme & Serien", "Internationale Sender",
-  "VOD", "Catch-up TV", "EPG", "Multi-screen", "99,9% Uptime", "HD & 4K", "Formel 1", "Bundesliga"
+  "VOD", "Catch-up TV", "EPG", "Multi-screen", "99,9% Uptime", "HD & 4K", "Formel 1", "Super League"
 ];
 
 export const STREAMING_SERVICES = [

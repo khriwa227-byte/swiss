@@ -24,7 +24,7 @@ const ServiceLogo: React.FC<{ name: string; logo: string }> = ({ name, logo }) =
 export const StreamingServices: React.FC = () => (
   <div>
     <div className="max-w-7xl mx-auto px-6 py-10 text-center">
-      <div className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: '#DD0000' }}>
+      <div className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: '#D52B1E' }}>
         Alles auf einer Plattform
       </div>
       <h2 className="text-2xl lg:text-3xl font-black tracking-tighter" style={{ color: '#111111' }}>
